@@ -1,0 +1,1250 @@
+[
+    {
+        "instruction": "The sentence you are given might be too wordy, complicated, or unclear. Rewrite the sentence and make your writing clearer by keeping it concise. Whenever possible, break complex sentences into multiple sentences and eliminate unnecessary words.",
+        "input": "If you have any questions about my rate or if you find it necessary to increase or decrease the scope for this project, please let me know.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nDo you have questions about my rate? If you need to adjust the scope of this project, please let me know."
+    },
+    {
+        "instruction": "Analyze the word choice, phrasing, punctuation, and capitalization in the given email. How may the writer of this email sound to the reader? These tones include Disheartening, Accusatory, Worried, Curious, Surprised, Disapproving, Unassuming, Formal, Assertive, Confident, Appreciative, Concerned, Sad, Informal, Regretful, Encouraging, Egocentric, Joyful, Optimistic, and Excited.",
+        "input": "Hi Jen, \nI hope you're well. Can we catch up today? I'd appreciate your input on my presentation for tomorrow's meeting. I'd especially love it if you could double-check the sales numbers with me. There's a coffee in it for you!",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe writer of this email may sound Appreciative and Encouraging. The use of polite language and the offer of a coffee for the reader's help suggest that the writer is grateful for the reader's assistance."
+    },
+    {
+        "instruction": "Rewrite the given text and correct grammar, spelling, and punctuation errors.",
+        "input": "If you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nIf you had told me a year ago that today I would finish a marathon, I would have laughed. Your support had a huge effect on me!"
+    },
+    {
+        "instruction": "You are given a paper citation, convert it to the requested citation style.",
+        "input": "Chicago: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv, (2017). https://doi.org/10.48550/arXiv.1706.03762.\nMLA:",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " Vaswani, Ashish, et al. \"Attention Is All You Need.\" arXiv, 2017, doi:10.48550/arXiv.1706.03762."
+    },
+    {
+        "instruction": "Desk jobs require writing a lot of emails, so it isn't surprising we get tired of repeating ourselves. Come up with several synonyms for the given word.",
+        "input": "Sincerely",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ",\n\n1. Respectfully\n2. Cordially\n3. Gratefully\n4. Appreciatively\n5. Affectionately\n6. Lovingly\n7. Devotedly\n8. Attentively\n9. Adoringly\n10. Endearingly"
+    },
+    {
+        "instruction": "The tone of the email should be changed and rewritten in a more professional manner.",
+        "input": "Subject: Asking for Vacation Time\nHi [Employer], \nI hope all is well. I am writing to request a day off on [date]. I have already taken care of my work responsibilities for that day and will be available to answer any questions or concerns you may have. \nThank you for your time, \n[Your name]",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ""
+    },
+    {
+        "instruction": "Discover the most relevant StackOverflow questions for your search term. And output a list of their URLs.",
+        "input": "remove item in array",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " javascript\n\n1. https://stackoverflow.com/questions/3954438/how-to-remove-item-from-array-by-value\n2. https://stackoverflow.com/questions/5767325/how-do-i-remove-a-particular-element-from-an-array-in-javascript\n3. https://stackoverflow.com/questions/3950139/how-to-remove-a-property-from-a-javascript-object\n4. https://stackoverflow.com/questions/1890203/how-do-i-directly-remove-an-item-from-a-javascript-array\n5. https://stackoverflow.com/questions/500606/javascript-array-delete-elements\n6. https://stackoverflow.com/questions/9882284/looping-through-array-and-removing-items-without-breaking-for-loop\n7. https://stackoverflow.com/questions/3954487/remove-item-from-array-by-index\n8. https://stackoverflow.com/questions/5767295/how-to-remove-a-specific-item-from-an-array\n9. https://stackoverflow.com/questions/3954468/how-to-remove-item-from-array-by-reference\n10. https://stackoverflow.com/questions/5767327/how-to-remove-all-items-from-an-array-in-javascript"
+    },
+    {
+        "instruction": "You are given an algorithm or a search query about coding. Look for a code snippet related to the search query.",
+        "input": "Python loop",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " through list\n\nExample:\n\nmy_list = [1, 2, 3, 4, 5]\n\nfor item in my_list:\n  print(item)"
+    },
+    {
+        "instruction": "You are provided with a description of the code, specifications, or prompts. Your help is needed in automating code generation to speed up the development process.",
+        "input": "python function to determine whether a number is prime.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\ndef is_prime(num):\n    if num <= 1:\n        return False\n    for i in range(2, num):\n        if num % i == 0:\n            return False\n    return True\n\nprint(is_prime(7)) # Output: True"
+    },
+    {
+        "instruction": "When you're stuck on a coding problem, the best place to look for help is in the documentation. Read the docs carefully and see if there's a section that covers your specific issue. Often, the answer will be right there in front of you. If not, try searching for key terms related to your problem. Come up with the useful links about the given search term.",
+        "input": "sql find duplicate values",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. https://www.essentialsql.com/sql-query-to-find-duplicate-records/\n2. https://www.mssqltips.com/sqlservertip/2082/identifying-duplicate-rows-in-sql-server/\n3. https://www.sqlshack.com/how-to-find-duplicate-values-in-a-table-in-sql-server/\n4. https://www.sqlservertutorial.net/sql-server-basics/sql-server-find-duplicate-values/\n5. https://www.sqlservercentral.com/forums/topic/how-to-find-duplicate-values-in-a-table\n6. https://www.sqlservergeeks.com/sql-server-find-duplicate-values-in-a-table/\n7. https://www.sqlservercurry.com/2009/09/sql-server-find-duplicate-values-in.html"
+    },
+    {
+        "instruction": "We have entered the home supplies budget in the following table. Calculate the last column with the given function and rewrite the completed table.\nNote that, columns in a row are separated using a comma, and rows are separated using a \"|\".",
+        "input": "Item, Qty, Price, Subtotal | mango, 5, 500, ? | apple, 4, 150, ? | oil, 2, 1500, ?  \nFunction: column2 * column 3",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nItem, Qty, Price, Subtotal | mango, 5, 500, 2500 | apple, 4, 150, 600 | oil, 2, 1500, 3000"
+    },
+    {
+        "instruction": "Please write the Excel function name associated with each description.",
+        "input": "- Returns the number of days between two dates\n- Returns the starting position of a text string within another text string.\n- Returns the number in the middle of the set of given numbers",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nDAYS, FIND, MEDIAN"
+    },
+    {
+        "instruction": "Find sentences from reliable sources such as the Guardian or Forbes that contain the exact match for the given sentence or phrase. Also, mention the source of each sentence.",
+        "input": "There are great options",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " for those looking to invest in the stock market.\n\n\"For those looking to invest in the stock market, there are great options available, from individual stocks to ETFs and mutual funds,\" according to Forbes."
+    },
+    {
+        "instruction": "During writing, we added an asterisk for the word that did not come to mind. You will need to provide several examples to demonstrate all the words that can be used in the sentence instead of the asterisk.",
+        "input": "we * to know",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " the truth\n\n-wanted \n-needed \n-sought \n-aspired \n-yearned \n-demanded \n-craved \n-longed"
+    },
+    {
+        "instruction": "Think of alternatives and paraphrases for the underlined word.",
+        "input": "what we have _expected",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "_\n\nwhat we anticipated, what we foresaw, what we predicted, what we envisioned"
+    },
+    {
+        "instruction": "You will be asked to answer the following question as part of the LinkedIn Skill assessments.",
+        "input": "You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe best way to specify which branch you want to look at is to use the full name of the branch. For example, if you wanted to look at the push-notifications branch, you would use the command \"git checkout push-notifications\". This will ensure that you are looking at the correct branch."
+    },
+    {
+        "instruction": "Take the title of the product and extract its attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must a list following the format of \"attribute: value\".",
+        "input": "SAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "/AM\n\n-Brand: Samsung \n-Capacity: 2TB \n-Interface: PCIe NVMe Gen 4 \n-Form Factor: M.2 \n-Type: Internal Solid State Hard Drive \n-Maximum Speed: N/A \n-Thermal Control: Yes \n-Model: MZ-V8P2T0B/AM"
+    },
+    {
+        "instruction": "You should write a Product Description that will persuade the buyer that the product is beneficial.",
+        "input": "Flipslide Game, Electronic Handheld Game | Flip, Slide, and Match the Colors to Beat the Clock - 4 Game Modes - Multiplayer Fun",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nIntroducing the Flipslide Game, the perfect electronic handheld game for hours of fun! With four different game modes, you can flip, slide, and match the colors to beat the clock. Challenge yourself or your friends in multiplayer mode and see who can get the highest score. The Flipslide Game is the perfect way to pass the time and have a blast.\n\nThe Flipslide Game is easy to use and requires no setup. Just turn it on and start playing. The game features four different game modes, each with its own unique challenge. You can flip, slide, and match the colors to beat the clock and get the highest score. The game also features a multiplayer mode, so you can challenge your friends and family to see who can get the highest score.\n\nThe Flipslide Game is the perfect way to pass the time and have a blast. With its easy-to-use design and four different game modes, you can challenge yourself or your friends and family to see who can get the highest score. Get the Flipslide Game today and start having fun!"
+    },
+    {
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n-Ice cream containers\n-Ice cream makers\n-Ice cream sundae toppings\n-Ice cream scoops and spades\n-Ice cream scoop holders\n-Ice cream scoop warmers\n-Ice cream scoop cleaning brushes\n-Ice cream scoopers with built-in timers\n-Ice cream scoopers with built-in thermometers\n-Ice cream scoopers with built-in scoops"
+    },
+    {
+        "instruction": "Compare the given item with similar products based on its properties such as price, rating, etc. For product comparison, use a table and separate the columns with \"|\".",
+        "input": "Item: iBayam Journal Planner Pens Colored Pens Fine Point Markers Fine Tip Drawing Pens Porous Fineliner Pen for Journaling Writing Note Taking Calendar Coloring Art Office Back to School Supplies, 18 Color",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n|Product|Price|Rating|\n|---|---|---|\niBayam Journal Planner Pens|$9.99|4.7/5|\nBIC Intensity Fineliner Pen|$7.99|4.6/5|\nOhuhu Fineliner Color Pen Set|$9.99|4.7/5|\nShuttle Art Fineliner Pens|$9.99|4.7/5|"
+    },
+    {
+        "instruction": "Write a  review based on the given information.",
+        "input": "- Product: Persil Discs Laundry Detergent Pacs, Original Scent, High Efficiency (HE) Compatible, Laundry Soap, 62 Count\n- Sentiment: Positive",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nI recently purchased the Persil Discs Laundry Detergent Pacs, Original Scent, High Efficiency (HE) Compatible, Laundry Soap, 62 Count and I am very pleased with the results. The detergent is easy to use and does a great job of getting my clothes clean. The scent is pleasant and not overpowering. I also appreciate that it is HE compatible, so I can use it in my high efficiency washer without any issues. I highly recommend this product and will definitely be purchasing it again."
+    },
+    {
+        "instruction": "Write a short description about the given movie or series.",
+        "input": "The Witcher (2019)",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " is a fantasy drama series based on the best-selling book series of the same name. It follows the story of Geralt of Rivia, a solitary monster hunter, who struggles to find his place in a world where people often prove more wicked than beasts. Along his journey, he meets a powerful sorceress and a young princess with a dangerous secret, and together they must navigate the increasingly volatile Continent. With its thrilling action sequences, captivating characters, and stunning visuals, The Witcher is an epic adventure that will keep viewers on the edge of their seats."
+    },
+    {
+        "instruction": "Think of some series or movies that would be enjoyable for someone who liked the given series.",
+        "input": "Squid Game",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n-The Office\n-Parks and Recreation\n-Brooklyn Nine-Nine\n-It's Always Sunny in Philadelphia\n-Arrested Development\n-Community\n-The Good Place\n-Schitt's Creek\n-Veep\n-Curb Your Enthusiasm"
+    },
+    {
+        "instruction": "Give examples of popular shows and movies in the genre.",
+        "input": "Genre: Crime TV Shows",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nExamples:\n1. Law & Order\n2. CSI\n3. NCIS\n4. Criminal Minds\n5. The Wire\n\nGenre: Romantic Comedies\n\nExamples:\n1. When Harry Met Sally\n2. Pretty Woman\n3. 10 Things I Hate About You\n4. The Proposal\n5. Love Actually"
+    },
+    {
+        "instruction": "In what genres does the given movie or series fall?",
+        "input": "Manifest",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " is a drama/mystery series."
+    },
+    {
+        "instruction": "Give a brief description of the given category of movies and shows.",
+        "input": "Period Dramas",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ": Period dramas are films and television shows that are set in a specific time period, usually in the past. They often focus on historical events and figures, and often feature elaborate costumes and sets. They often explore themes of love, family, and social class."
+    },
+    {
+        "instruction": "What is the output of the given LATEX code?",
+        "input": "\\documentclass{article}\n\\begin{document}\nFirst document. This is a simple example, with no \nextra parameters or packages included.\n\\end{document}",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nNo output. This code is used to create a document, not to produce an output."
+    },
+    {
+        "instruction": "You should find a few LATEX templates appropriate for the task at hand and list the links to them.",
+        "input": "Homework Assignment",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " Template:\nhttps://www.overleaf.com/latex/templates/homework-assignment-template/zvzvhjzvzvzv\n\nResearch Paper Template:\nhttps://www.overleaf.com/latex/templates/research-paper-template/qzvzvzvzvzvzv\n\nThesis Template:\nhttps://www.overleaf.com/latex/templates/thesis-template/zvzvzvzvzvzvzv"
+    },
+    {
+        "instruction": "Choose Spotify playlists that match the given mood. Provide a link to these playlists for easy access.",
+        "input": "Feeling Good",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n\n1. \"Feel Good Pop\" - https://open.spotify.com/playlist/37i9dQZF1DXdPec7aLTmlC\n\n2. \"Happy Hits\" - https://open.spotify.com/playlist/37i9dQZF1DX4SBhb3fqCJd\n\n3. \"Mood Booster\" - https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0"
+    },
+    {
+        "instruction": "Curate a Spotify playlist based on the vibe. Publish this playlist as a song list.",
+        "input": "Vibe: coding on weekend",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. \"Coding All Night\" by Kero Kero Bonito\n2. \"Coding in the Name of\" by The Glitch Mob\n3. \"Coding in the Rain\" by The Chemical Brothers\n4. \"Coding in the Dark\" by The Postal Service\n5. \"Coding in the Sun\" by The Flaming Lips\n6. \"Coding in the Wind\" by The Black Keys\n7. \"Coding in the Night\" by The xx\n8. \"Coding in the Morning\" by The National\n9. \"Coding in the Afternoon\" by The Strokes\n10. \"Coding in the Evening\" by The White Stripes\n11. \"Coding in the Shadows\" by The Killers\n12. \"Coding in the Streets\" by The Roots\n13. \"Coding in the Park\" by The Kooks\n14. \"Coding in the Woods\" by The Shins\n15. \"Coding in the City\" by The Streets"
+    },
+    {
+        "instruction": "How would you describe the meaning of this lyrics? Describe some of the metaphors.",
+        "input": "My lover\u2019s got humor\nShe\u2019s the giggle at a funeral\nKnows everybody\u2019s disapproval\nI should\u2019ve worshipped her sooner",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThis lyrics is about appreciating a lover for their unique qualities and recognizing that they should have been appreciated sooner. The metaphor of a \"giggle at a funeral\" is used to describe the lover's ability to bring joy and light to even the darkest of situations. The phrase \"worshipped her sooner\" is also a metaphor, suggesting that the speaker should have given their lover more respect and admiration."
+    },
+    {
+        "instruction": "You should take the time to read the situation and problem carefully and give the best advice you can.",
+        "input": "I'm roadtripping down New Zealand with a friend and he is driving me insane. He hasn't enjoyed all the tours we've been on and doesn't want to chat about ANYTHING. We're a week into our trip and this is the quietest I've ever been when hanging out with another person as he rebuffs all my attempts at conversation. He wears his airpods in the car and around the accommodation - not that I've kept trying to talk to him. Honestly, he is bringing some seriously bad vibes to everything and it's ruining my trip.\nWe don't have anything booked in yet for the South Island, so I'm planning to ditch him in Wellington at the ferry. Probably book my own car in Picton and just relax alone for the rest of the trip. (Just thinking about it is such sharp relief that it makes me feel emotional. I'll pay whatever price I have to just to get away from him.)\nObviously telling him he is ruining my trip with his negative energy isn't the best way to approach this.\nAny advice for the best approach so we can split amicably? Or at least not have an argument that ends with very hurt feelings?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nIt sounds like you have already made the decision to part ways with your friend, and that is understandable given the situation. It is important to approach the conversation in a way that is respectful and understanding of your friend's feelings. You could start by expressing your appreciation for the time you have spent together and the experiences you have shared. Then, you could explain that you feel like you need some time alone to enjoy the rest of the trip and that you think it would be best if you went your separate ways. You could also offer to help him find alternative travel arrangements if needed. It is important to be honest and open about your feelings, but also to be mindful of your friend's feelings and to be respectful of their perspective."
+    },
+    {
+        "instruction": "You are given a description that provides a set of facts or a scenario. It is up to you to craft a story from these facts and scenarios. The missing pieces must be filled in with imaginative but logical information.",
+        "input": "Ten European football teams \u2013 the Netherlands, England, Belgium, Denmark, France, Germany, Norway, Sweden, Switzerland and Wales \u2013 will participate in a season-long \u201cOneLove\u201d campaign promoting inclusion and opposing discrimination.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe OneLove campaign was the brainchild of the European Football Association (EFA). After a series of unfortunate events, the EFA had become increasingly aware of the need to promote inclusion and oppose discrimination in the sport. The EFA had seen too many instances of racism, sexism, and other forms of discrimination in the sport, and they wanted to do something to combat it.\n\nThe EFA decided to launch the OneLove campaign, which would involve all ten of the participating teams. Each team would be responsible for creating a series of initiatives to promote inclusion and oppose discrimination. These initiatives could include anything from hosting special events to creating educational materials to raising awareness about the issue.\n\nThe teams were enthusiastic about the campaign and quickly got to work. The Netherlands team, for example, hosted a series of events to celebrate diversity and promote inclusion. They also created educational materials to help people understand the importance of inclusion and the dangers of discrimination.\n\nEngland, Belgium, Denmark, France, Germany, Norway, Sweden, Switzerland, and Wales all followed suit, each creating their own initiatives to promote inclusion and oppose discrimination.\n\nThe OneLove campaign was a huge success. It was widely praised by fans, players, and the media alike. It was a powerful reminder that football is a sport for everyone, regardless of race, gender, or any other factor.\n\nThe OneLove campaign was a major step forward in the fight against discrimination in football. It showed that the sport can be a force for good, and that it can be used to promote inclusion and oppose discrimination. The campaign was a reminder that football is a sport for everyone, and that everyone should be treated with respect."
+    },
+    {
+        "instruction": "Based on the given query, suggest some related search queries.",
+        "input": "learning french",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. French language courses\n2. French language learning resources\n3. French language learning tips\n4. French language learning apps\n5. French language learning books\n6. French language learning podcasts\n7. French language learning videos\n8. French language learning websites\n9. French language learning classes\n10. French language learning exercises"
+    },
+    {
+        "instruction": "Please suggest a few papers to consider based on the search term given. The names of the papers should be listed.",
+        "input": "Topic: scaling law + machine learning",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. \"Scaling Laws for Machine Learning: A Unifying Framework for Understanding Generalization\" by Y. Zhang et al.\n\n2. \"Scaling Laws for Machine Learning: A Unifying Framework for Understanding Generalization\" by Y. Zhang et al.\n\n3. \"Scaling Laws for Machine Learning: A Unifying Framework for Understanding Generalization\" by Y. Zhang et al.\n\n4. \"Scaling Laws for Machine Learning: A Unifying Framework for Understanding Generalization\" by Y. Zhang et al.\n\n5. \"Scaling Laws for Machine Learning: A Unifying Framework for Understanding Generalization\" by Y. Zhang et al.\n\n6. \"Scaling Laws for Machine Learning: A Unifying Framework for Understanding Generalization\" by Y. Zhang et al.\n\n7. \"Scaling Laws for Machine Learning: A Unifying Framework for Understanding Generalization\" by Y. Zhang et al.\n\n8. \"Scaling Laws for Machine Learning: A Unifying Framework for Understanding Generalization\" by Y. Zhang et al.\n\n9. \"Scaling Laws for Machine Learning: A Unifying Framework for Understanding Generalization\" by Y. Zhang et al.\n\n10. \"Scaling Laws for Machine Learning: A Unifying Framework for Understanding Generalization\" by Y. Zhang et al."
+    },
+    {
+        "instruction": "Prepare an email signature template for the given person or company.",
+        "input": "a graduate student of computer science",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nBest,\n\n[Name]\n\nComputer Science Graduate Student\n[University]\n[Phone] | [Email]"
+    },
+    {
+        "instruction": "React properly to reviews from your customers. In your responses, you can highlight your business' policies and customer service.",
+        "input": "Another repeat visit and no disappointment from us. Great place for breakfast or brunch - and you won't need to eat again for awhile. The restaurant is close to the Tenderloin so be aware of your surroundings.\nWe enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry. Portions are large and pricing is fair. I wish we could have managed a Beignet Flight!\nDefinitely a spot to seek out. It can be crowed at times so be patient. Well worth any wait.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThank you so much for your kind words and for taking the time to review us! We are so glad to hear that you enjoyed your meal and that you found our pricing to be fair. We strive to provide a safe and enjoyable experience for all of our customers, and we appreciate your awareness of your surroundings. We hope to see you again soon for a Beignet Flight!"
+    },
+    {
+        "instruction": "Write a good Twitter Bio. Try to cover all the provided main points in your generated bio.",
+        "input": "Name: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nHi, I'm Jane! I'm an architect with a passion for tech. I'm always looking for new ways to use tech to make buildings more efficient and sustainable. When I'm not working, I'm exploring the outdoors or trying out new recipes."
+    },
+    {
+        "instruction": "We need to write a thematic tweet to share company news and facts. Please take a careful look at the facts and details provided and create a tweet based on them.",
+        "input": "- news: Applications for summer internships are open now\n- Start with a thematic tie-in to Halloween",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nIt's time to get spooky! \ud83c\udf83 Applications for our summer internships are now open - don't miss out on this opportunity! #Halloween #Internships #Opportunity"
+    },
+    {
+        "instruction": "A job description is a document that clearly states the requirements, duties, responsibilities, and skills required to perform a specific role. You need to write a job description based on the given information. You should describe responsibilities and duties in your job description in a logical order. Remember that potential employees often get their first impression of your company from your job description. So, the job description should convey the attractiveness of your company.",
+        "input": "Company: [Company name]\nJob: Software Engineer\nJob Responsibilities:\nReceive and perform code reviews with other engineers.\nWrite unit, integration, and end-to-end tests to verify functionality using automated testing frameworks such as Pytest.\nWork collaboratively with fellow software engineers to build features requested by business stakeholders.\nParticipate in Agile teams to develop, test, and debug complex data processing pipelines and data analysis applications using big data processing systems such as Apache Spark.\nDiagnose, debug, and perform root cause analysis of issues and defects.\nSkills and experience that will lead to success:\nExperience with a modern software programming language. We use Python, and Pyspark extensively.\nExperience with cloud systems like AWS or Azure\nExperience writing SQL queries \nStrong written and verbal communication skills\nEagerness to work in a highly-collaborative environment\nSome visualization experience such as Tableau or PowerBI is helpful",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\nAbility to work independently and take initiative\nStrong problem-solving skills\nAbility to work in a fast-paced environment\n\nCompany: [Company name]\nJob: Software Engineer\nJob Responsibilities:\n\u2022 Develop, test, and debug complex data processing pipelines and data analysis applications using big data processing systems such as Apache Spark.\n\u2022 Receive and perform code reviews with other engineers.\n\u2022 Write unit, integration, and end-to-end tests to verify functionality using automated testing frameworks such as Pytest.\n\u2022 Diagnose, debug, and perform root cause analysis of issues and defects.\n\u2022 Work collaboratively with fellow software engineers to build features requested by business stakeholders.\n\u2022 Participate in Agile teams to develop, test, and debug complex data processing pipelines and data analysis applications.\n\u2022 Monitor and maintain system performance and security.\nSkills and experience that will lead to success:\n\u2022 Experience with a modern software programming language. We use Python, and Pyspark extensively.\n\u2022 Experience with cloud systems like AWS or Azure\n\u2022 Experience writing SQL queries \n\u2022 Strong written and verbal communication skills\n\u2022 Eagerness to work in a highly-collaborative environment\n\u2022 Some visualization experience such as Tableau or PowerBI is helpful\n\u2022 Ability to work independently and take initiative\n\u2022 Strong problem-solving skills\n\u2022 Ability to work in a fast-paced environment"
+    },
+    {
+        "instruction": "Considering the reason for the rejection, write a polite rejection letter for rejecting a candidate.",
+        "input": "Reason: You came in second",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " place\n\nDear [Candidate],\n\nThank you for applying for the [position] at [Company]. We appreciate the time and effort you put into your application and we were impressed with your qualifications.\n\nUnfortunately, after careful consideration, we have decided to offer the position to another candidate. We had a number of highly qualified applicants and you came in second place.\n\nWe wish you the best of luck in your future endeavors.\n\nSincerely,\n[Your Name]"
+    },
+    {
+        "instruction": "We've already decided on the title and topic for our blog post. I would appreciate it if you wrote an introduction paragraph to attract the readers' attention.",
+        "input": "Blog title: Healthy Apple Muffins\nBlog Topic: recipe and tips for cooking a good apple muffin",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nAre you looking for a delicious and healthy snack that you can make in no time? Look no further than these delicious apple muffins! Not only are they easy to make, but they are also packed with nutritious ingredients that will keep you feeling full and energized. In this blog post, we will provide you with a simple recipe and helpful tips for making the perfect apple muffin. So, let's get started!"
+    },
+    {
+        "instruction": "Design an outline for a blog post based on the given information and list the sections accordingly.",
+        "input": "This blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nI. Introduction \nA. Definition of last-minute gift ideas \nB. Benefits of having a list of last-minute gift ideas \n\nII. Last-Minute Gift Ideas \nA. Gift cards \nB. Subscription boxes \nC. DIY gifts \nD. Experiences \n\nIII. Tips for Making Last-Minute Gift Ideas \nA. Start early \nB. Think outside the box \nC. Personalize the gift \n\nIV. Conclusion \nA. Summary of last-minute gift ideas \nB. Benefits of having a list of last-minute gift ideas"
+    },
+    {
+        "instruction": "Write a section for a blog post and try to cover all of the provided information about this section in your text.",
+        "input": "Blog Topic: 7 Fall Fashion Trends Worth Taking on Your Trip\nSection Title: Trusty Jeans\nMain point of the section: jeans can be worn all year and look good with everything .",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nJeans are a timeless wardrobe staple that can be worn all year round, and they are especially great for fall trips. Whether you\u2019re headed to a cooler climate or a warmer one, jeans are a great option for any destination. They look great with everything from a cozy sweater to a light blouse, and they can be dressed up or down depending on the occasion. Plus, they\u2019re comfortable and easy to pack. If you\u2019re looking for a reliable piece of clothing to take on your fall trip, jeans are a great choice. They\u2019re versatile, stylish, and will never go out of style."
+    },
+    {
+        "instruction": "Create a detailed caption for an Instagram post about a discount. A proper caption should explain the product, offer the discount, and tell the user how to claim it.",
+        "input": "Product: Golang course\nProduct description: teaching the foundational skills for building cloud services, web applications, DevOps tools, and backend development\nDiscount: 50%\nHow to claim: Use the coupon code: GOLANG",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "50\n\nTake your coding skills to the next level with our Golang course! Learn the foundational skills for building cloud services, web applications, DevOps tools, and backend development. For a limited time, get 50% off with coupon code GOLANG50. Don't miss out on this amazing deal! #golang #coding #discount"
+    },
+    {
+        "instruction": "Create a captivating Instagram caption based on the provided details. Try to think of as many captions as you can.",
+        "input": "I am sharing images of the first snow of the year taken from a window in an office",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " building.\n\n1. The first snow of the year is here! Taking in the beauty of the winter wonderland from my office window. \n2. Winter has arrived! Taking a moment to appreciate the beauty of the snow from my office window. \n3. Snowy days are the best days! Enjoying the view of the first snow of the year from my office window. \n4. The snow is here! Taking a moment to appreciate the beauty of the winter wonderland from my office window. \n5. Winter is here! Taking in the beauty of the first snow of the year from my office window. \n6. Snowy days are the best days! Enjoying the view of the winter wonderland from my office window. \n7. The snow is here! Taking a moment to appreciate the beauty of the first snow of the year from my office window. \n8. Winter has arrived! Taking in the beauty of the winter wonderland from my office window."
+    },
+    {
+        "instruction": "You are given a topic for an Instagram post. Help the post reach a broader audience by suggesting hashtags related to the post.",
+        "input": "Another episode of women in science is out now",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "!\n\n#WomenInScience #WomenInSTEM #WomenInTech #WomenInEngineering #WomenInResearch #WomenInInnovation #WomenInLeadership #WomenInScienceAndTech #WomenInAcademia #WomenInScienceFiction #WomenInScienceHistory #WomenInScienceAndEngineering #WomenInScienceAndMathematics #WomenInScienceAndMedicine #WomenInScienceAndTechnology #WomenInScienceAndEngineeringAwards #WomenInScienceAndTechnologyAwards #WomenInScienceAndEngineeringMonth #WomenInScienceAndTechnologyDay #WomenInScienceAndTechnologyWeek #WomenInScienceAndTechnologyMonth #WomenInScienceAndTechnologyForum #WomenInScienceAndTechnologyConference #WomenInScienceAndTechnologySummit #WomenInScienceAndTechnologyAchievements #WomenInScienceAndTechnologyAwards2020 #WomenInScienceAndTechnologyLeadership #WomenInScienceAndTechnologyAdvocacy"
+    },
+    {
+        "instruction": "Use appropriate emojis to convey the meaning in the given text.",
+        "input": "Cute cat\nplayful\nSoft",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n\ud83d\ude3b\ud83d\udc31\ud83e\udd2a\ud83d\ude0c"
+    },
+    {
+        "instruction": "The topic of a YouTube post has been described and based on the information, you need to write a hook for starting the post. A catchy hook will keep your readers interested so they keep reading. It would be great if you could come up with as many hooks as you can.",
+        "input": "A video showing how to make a tasty cup of coffee",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n\n1. Start your day off right with a delicious cup of coffee - learn how to make it here!\n2. Wake up and smell the coffee - learn how to make the perfect cup!\n3. Get your caffeine fix with this easy-to-follow coffee-making tutorial!\n4. Make your morning cup of joe like a barista - learn how here!\n5. Get your coffee fix with this simple step-by-step guide!\n6. Make your morning cup of coffee like a pro - watch this video to find out how!\n7. Get your caffeine buzz with this easy-to-follow coffee-making tutorial!\n8. Make your morning cup of coffee with ease - watch this video to find out how!\n9. Get your coffee fix with this simple and delicious recipe!\n10. Make your morning cup of coffee with ease - learn how here!"
+    },
+    {
+        "instruction": "Using the provided topic as a starting point, brainstorm ideas for videos that can be made about it on YouTube.",
+        "input": "In spite of the fact that procrastination feels bad to you, why do you do it?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. How to Overcome Procrastination: A Step-by-Step Guide \n2. The Science Behind Procrastination: What Causes Us to Put Things Off? \n3. How to Beat Procrastination: Tips from Experts \n4. Procrastination: A Personal Story \n5. How to Stop Procrastinating: A Guide for Students \n6. Procrastination: A Guide for Parents \n7. How to Make the Most of Your Time: Strategies for Avoiding Procrastination \n8. The Benefits of Procrastination: Why You Should Embrace It \n9. How to Make Procrastination Work for You \n10. How to Motivate Yourself to Stop Procrastinating \n11. How to Create a Productive Environment to Avoid Procrastination \n12. How to Use Technology to Help You Stop Procrastinating \n13. How to Use Mindfulness to Overcome Procrastination \n14. How to Use Positive Self-Talk to Stop Procrastinating \n15. How to Use Goal-Setting to Avoid Procrastination \n16. How to Use Time Management to Avoid Procrastination \n17. How to Use Rewards to Stop Procrastinating \n18. How to Use Visualization to Stop Procrastinating \n19. How to Use Scheduling to Avoid Procrastination \n20. How to Use Habits to Stop Procrastinating"
+    },
+    {
+        "instruction": "You should choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.",
+        "input": "A research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nA good title for this video could be: \"Does Exercise Really Boost Your Metabolism? - A Research Study\"."
+    },
+    {
+        "instruction": "Choosing a name for your product or business YouTube channel is an important part of the process. Based on the description of the product or business, you should come up with some interesting names. Take some time to brainstorm your ideas.",
+        "input": "Here you will find videos and content that will help students prepare for the application process to graduate schools as well as how to apply to graduate schools",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ".\n\n1. Grad School Guru\n2. Grad School Prep\n3. Grad School Ready\n4. Grad School Success\n5. Grad School Journey\n6. Grad School Insider\n7. Grad School Application Academy\n8. Grad School Application Guide\n9. Grad School Application Tips\n10. Grad School Application Strategies"
+    },
+    {
+        "instruction": "Find the answer that best describes the underlined SAT word. Select the correct option and explain the meaning of the underlined word.",
+        "input": "Despite the _cacophony, the student tried to study. \nA. Loud sounds\nB. Difficult subject\nC. Late hour\nD. Low lighting",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nA. Loud sounds - Cacophony means a loud, confused, or inharmonious sound."
+    },
+    {
+        "instruction": "Find synonyms for the given word. You need to write down how the provided synonyms differ from the original word in terms of meaning, usage, etc.",
+        "input": "adversity",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nHardship: Hardship is a more general term than adversity, as it can refer to any difficult situation, not just one that is caused by external factors.\n\nMisfortune: Misfortune is a more specific term than adversity, as it implies that the difficult situation is caused by bad luck or chance.\n\nTribulation: Tribulation is a more intense term than adversity, as it implies a greater degree of suffering or difficulty.\n\nCalamity: Calamity is a more extreme term than adversity, as it implies a catastrophic event or disaster."
+    },
+    {
+        "instruction": "Discuss the origins and history of the word that has been given to you.",
+        "input": "oblique",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe word oblique has its origins in the Latin language, derived from the word obliquus, which means \u201cslanting\u201d or \u201csloping.\u201d It was first used in English in the 15th century to describe something that was not straight or perpendicular. Over time, the word has come to be used in a variety of contexts, including mathematics, architecture, and even music. In mathematics, oblique refers to a line that is neither parallel nor perpendicular to another line. In architecture, oblique refers to a type of arch or vault that is not semicircular. In music, oblique refers to a type of interval that is neither major nor minor."
+    },
+    {
+        "instruction": "Give the provided brand a motto to use as a part of its marketing strategies.",
+        "input": "The Ice cream shop is a small, quaint shop located in the heart of the historic district. They offer a variety of ice cream flavors, as well as Italian ice, gelato, and sorbet. The shop has a few tables and chairs, but most of their business is to-go. They offer a loyalty program where you can get a free scoop of ice cream after 10 purchases.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nMotto: \"Treat Yourself to Something Sweet - Ice Cream from the Heart!\""
+    },
+    {
+        "instruction": "A confirmation email should be written appropriately for the situation.",
+        "input": "A meeting has been scheduled, and the sender expects the other to review the slides.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nSubject: Confirmation of Meeting\n\nDear [Name],\n\nThis is to confirm our meeting scheduled for [date and time]. I look forward to discussing [topic] with you.\n\nPlease review the slides I sent you prior to the meeting. I am confident that our discussion will be productive and beneficial.\n\nIf you have any questions or concerns, please do not hesitate to contact me.\n\nI look forward to seeing you soon.\n\nSincerely,\n[Your Name]"
+    },
+    {
+        "instruction": "It would be helpful if you could suggest an acronym for the repository.",
+        "input": "A python framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nNISQ-CREATE"
+    },
+    {
+        "instruction": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:",
+        "input": "Movie: Joker (2019)",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\nTagline: \"Put on a Happy Face\""
+    },
+    {
+        "instruction": "You are given some reviews for a movie. Each video might have mentioned some negative or positive points about the movie. Read them carefully and extract the positive and negative points mentioned in all of the reviews. Then, make a list of these points and summarize them as positive points and negative points.",
+        "input": "Review 1: I'm not sure if it's just the fact that Ed Norton really grates on me in this film, but I never really bought into the idea of Fight Club being some kind of cultural phenomenon. Yes it's an innovative story, told via a strong script, engaging characters and intense cinematography. But is it really worthy of such high praise? Personally, I find it starts to fall apart halfway through and actually becomes quite tedious towards the end. Everything just becomes a little bit childish and contrived as the story loses touch with its base elements and the rage against the machine vibe takes over. I have huge respect for the way this film was made but, much like The Matrix, I feel like people attach way more importance to this movie than it deserves.\nReview 2: The film tells the story of men who cannot adapt to the social order in today's world, under the leadership of Tyler Durden, to discover their natural instinct, masculinity, and to escape from their unhappy lives.\nReview 3: Despite a good theme, great acting and important messages that this movie convey in an unorthodox way, I think it fails to connect the audience with the storyline and leaves him in a world of confusion. Although, majority of reviews find this movie entertaining and interesting, yet I would choose to be a minority that believes that this movie is extremely overrated.\nReview 4: Is creating chaos, explosions and membership in a militant sect the way to get rid of material shackles ?! The visual effects are fascinating and the story is compelling until the second half. Unfortunately, it doesn't end well.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nPositive Points:\n- Innovative story\n- Strong script\n- Engaging characters\n- Intense cinematography\n- Tells the story of men who cannot adapt to the social order in today's world\n- Good theme\n- Great acting\n- Important messages conveyed in an unorthodox way\n- Entertaining and interesting\n- Visual effects are fascinating\n- Story is compelling\n\nNegative Points:\n- Ed Norton grates on the viewer\n- Falls apart halfway through\n- Becomes quite tedious towards the end\n- Everything becomes a little bit childish and contrived\n- People attach way more importance to this movie than it deserves\n- Fails to connect the audience with the storyline\n- Leaves the viewer in a world of confusion\n- Is creating chaos, explosions and membership in a militant sect the way to get rid of material shackles?\n- Doesn't end well"
+    },
+    {
+        "instruction": "Give a brief summary of the movie or series' plot.",
+        "input": "Breaking Bad (TV Series 2008\u20132013)",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " follows the story of Walter White, a struggling high school chemistry teacher who is diagnosed with inoperable lung cancer at the beginning of the series. Desperate to secure his family's financial future, Walter turns to a life of crime, producing and selling methamphetamine with former student Jesse Pinkman. The series follows Walter's transformation from a meek family man to a ruthless drug kingpin known as Heisenberg. Along the way, Walter and Jesse navigate the dangers of the criminal world, while also battling Walter's own pride and moral dilemma."
+    },
+    {
+        "instruction": "Decide whether children can watch the given movie. Mention what makes it inappropriate if you think they can't.",
+        "input": "The Dark Knight (2008)",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nNo, children should not watch The Dark Knight (2008). The movie contains intense violence, strong language, and dark themes that are not suitable for children."
+    },
+    {
+        "instruction": "Write a short analysis of the cinematography in the movie.",
+        "input": "Dead Poets Society",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " features a unique and captivating cinematography that helps to bring the story to life. The camera work is often handheld, giving the film a more intimate feel and allowing the audience to feel as if they are part of the story. The camera also often follows the characters around, giving the audience a sense of being in the same room as the characters. The lighting is also used to great effect, with the use of natural light to create a warm and inviting atmosphere. The use of slow motion and close-ups also help to emphasize the emotions of the characters and the importance of certain moments. Overall, the cinematography of Dead Poets Society is a key factor in making the film so memorable and powerful."
+    },
+    {
+        "instruction": "Please let me know your thoughts on the given place and why you think it deserves to be visited.",
+        "input": "Barcelona, Spain",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " is a beautiful and vibrant city that deserves to be visited. It is a city full of culture, art, and history, with stunning architecture, delicious cuisine, and a lively nightlife. Barcelona is home to some of the world's most iconic landmarks, such as the Sagrada Familia and Park G\u00fcell, and its beaches are some of the best in Europe. The city also has a great selection of museums, galleries, and other attractions, making it a great destination for travelers of all ages. Barcelona is a great place to explore, with its unique culture, amazing food, and vibrant atmosphere. It is a city that will leave you with unforgettable memories and experiences."
+    },
+    {
+        "instruction": "Consider the best time of year to visit the given city, and provide your reasons for choosing that time.",
+        "input": "Sydney, Australia",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe best time of year to visit Sydney, Australia is during the spring season, which runs from September to November. During this time, the weather is mild and sunny, with temperatures ranging from the mid-50s to mid-70s Fahrenheit. The days are long and sunny, making it the perfect time to explore the city's many attractions. Additionally, the spring season is the start of the whale-watching season, so visitors can take advantage of the opportunity to spot these majestic creatures. Finally, the spring season is the start of the city's cultural calendar, with many festivals and events taking place throughout the season."
+    },
+    {
+        "instruction": "Make a list of the top places in the U.S. to visit at the given time.",
+        "input": "November",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n1. New York City, New York\n2. Las Vegas, Nevada\n3. San Francisco, California\n4. Washington, D.C.\n5. Chicago, Illinois\n6. New Orleans, Louisiana\n7. Boston, Massachusetts\n8. Seattle, Washington\n9. Miami, Florida\n10. San Diego, California"
+    },
+    {
+        "instruction": "Answer the following question.",
+        "input": "How do I compare strings in Java?\nI've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into .equals() instead, and it fixed the bug.\nIs == bad? When should it and should it not be used? What's the difference?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe == operator should not be used to compare strings in Java. The == operator checks if two references point to the same object, while the .equals() method checks if two objects have the same value. Therefore, when comparing strings, it is best to use the .equals() method."
+    },
+    {
+        "instruction": "You are given a question and two possible answers. The task is to evaluate each answer and determine if it is correct. If incorrect, explain why.",
+        "input": "Is there a way of reading one single character from the user input? For instance, they press one key at the terminal and it is returned (sort of like getch()). I know there's a function in Windows for it, but I'd like something that is cross-platform.\nAnswer 1: Here's a link to the ActiveState Recipes site that says how you can read a single character in Windows, Linux and OSX :\nhttps://code.activestate.com/recipes/134892/\nAnswer 2: if you just want to hold the screen so you can see the result on the terminal just write `input()` at the end of the code and it will hold the screen",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " until you press enter.\n\nAnswer 1 is correct. Answer 2 is incorrect because it does not address the question of reading a single character from user input."
+    },
+    {
+        "instruction": "You are given two questions. Check if they are duplicates.",
+        "input": "Question1: I am trying to understand the advantages of multiprocessing over threading. I know that multiprocessing gets around the Global Interpreter Lock, but what other advantages are there, and can threading not do the same thing?\nQuestion2: I am learning how to use the threading and the multiprocessing modules in Python to run certain operations in parallel and speed up my code.\nI am finding this hard (maybe because I don't have any theoretical background about it) to understand what the difference is between a threading.Thread() object and a multiprocessing.Process() one.\nAlso, it is not entirely clear to me how to instantiate a queue of jobs and having only 4 (for example) of them running in parallel, while the other wait for resources to free before being executed.\nI find the examples in the documentation clear, but not very exhaustive; as soon as I try to complicate things a bit, I receive a lot of weird errors (like a method that can't be pickled, and so on).\nSo, when should I use the threading and multiprocessing modules?\nCan you link me to some resources that explain the concepts behind these two modules and how to use them properly for complex tasks?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nNo, these questions are not duplicates."
+    },
+    {
+        "instruction": "Design a programming problem related to the subject that has been given to you. Use some examples and constraints to improve your question.",
+        "input": "Dynamic Programming",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " Problem:\nGiven a set of n items, each with a weight w_i and a value v_i, determine the maximum value of a subset of the items that can be placed in a knapsack of capacity W.\n\nExamples:\n\n1. n = 4, W = 10, w_1 = 2, v_1 = 10, w_2 = 3, v_2 = 5, w_3 = 5, v_3 = 15, w_4 = 7, v_4 = 7\n\n2. n = 5, W = 15, w_1 = 2, v_1 = 10, w_2 = 3, v_2 = 5, w_3 = 5, v_3 = 15, w_4 = 7, v_4 = 7, w_5 = 4, v_5 = 18\n\nConstraints:\n\n1. 0 <= w_i <= W\n2. 0 <= v_i <= 100\n3. 0 <= n <= 20"
+    },
+    {
+        "instruction": "Provide a Java solution to the following problem.",
+        "input": "Given an integer n, return true if it is a power of three. Otherwise, return false.\nAn integer n is a power of three, if there exists an integer x such that n == 3^x.\n\nExample 1:\nIn: n = 27\nOut: true\nExplanation: 27 = 3^3\n\nExample 2:\nIn: n = 0\nOut: false\nExplanation: There is no x where 3^x = 0.\n\nExample 3:\nIn: n = -1\nOut: false\nExplanation: There is no x where 3x = (-1).\n \nConstraints:\n-231 <= n <= 231 - 1\nFollow up: Could you solve it without loops/recursion?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nSolution:\npublic boolean isPowerOfThree(int n) {\n    if (n == 0) return false;\n    while (n % 3 == 0) {\n        n /= 3;\n    }\n    return n == 1;\n}"
+    },
+    {
+        "instruction": "You will need to guide this person through the scenario they have described for the interview.",
+        "input": "Finally! After a while of shooting in the dark and frantically fiddling with sample inputs on the whiteboard, you've came up with an algorithm for solving the coding question your interviewer gave you.\nWhew. Such a relief to have a clear path forward. To not be flailing anymore.\nNow you're cruising, getting ready to code up your solution.\nWhen suddenly, your interviewer throws you a curve ball.\n\"What if we thought of the problem this way?\"\nYou feel a tension we've all felt during the coding interview:\n\"Try to listen to what they're saying...but don't lose your train of thought...ugh, I can't do both!\"",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nDon't worry, you can do both. Here's how:\n\n1. Listen carefully to your interviewer's suggestion. Ask clarifying questions if you need to.\n2. Take a moment to consider the implications of their suggestion.\n3. If it's a good suggestion, incorporate it into your solution.\n4. If it's not a good suggestion, explain why and suggest an alternative.\n5. Once you've incorporated the suggestion, continue coding your solution.\n\nBy following these steps, you can stay on track with your solution while still listening to your interviewer's suggestions. Good luck!"
+    },
+    {
+        "instruction": "You are given a programming problem and its implementation. Analyze the problem and implementation and explain the algorithm and approach used to solve the problem.",
+        "input": "Table: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\npersonId is the primary key column for this table.\nThis table contains information about the ID of some persons and their first and last names.\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\naddressId is the primary key column for this table.\nEach row of this table contains information about the city and state of one person with ID = PersonId.\nWrite an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.\nReturn the result table in any order.\nImplementation:\nselect FirstName, LastName, City, State\nfrom Person left join Address\non Person.PersonId = Address.PersonId\n;",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe algorithm used to solve this problem is a left join. A left join is a type of join operation that combines two tables by matching the values in a column from each table. In this case, the Person table is joined with the Address table on the PersonId column. This allows us to retrieve the first name, last name, city, and state of each person in the Person table, even if the address of a personId is not present in the Address table. The result table is returned in any order."
+    },
+    {
+        "instruction": "The given article should be checked for any scientific errors and corrected if necessary.",
+        "input": "Zinc is an essential mineral that is required for good health. It is involved in many biochemical processes in the body and is necessary for the proper functioning of the immune system. Excess zink is not harmful as it is excreted in the urine.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nCorrected:\nZinc is an essential mineral that is required for good health. It is involved in many biochemical processes in the body and is necessary for the proper functioning of the immune system. Excess zinc is not harmful as it is excreted in the urine."
+    },
+    {
+        "instruction": "Summarize the article you have been given in a brief manner.",
+        "input": "Mathematics and art are related in a variety of ways. Mathematics has itself been described as an art motivated by beauty. Mathematics can be discerned in arts such as music, dance, painting, architecture, sculpture, and textiles. This article focuses, however, on mathematics in the visual arts.\nMathematics and art have a long historical relationship. Artists have used mathematics since the 4th century BC when the Greek sculptor Polykleitos wrote his Canon, prescribing proportions conjectured to have been based on the ratio 1:\u221a2 for the ideal male nude. Persistent popular claims have been made for the use of the golden ratio in ancient art and architecture, without reliable evidence. In the Italian Renaissance, Luca Pacioli wrote the influential treatise De divina proportione (1509), illustrated with woodcuts by Leonardo da Vinci, on the use of the golden ratio in art. Another Italian painter, Piero della Francesca, developed Euclid's ideas on perspective in treatises such as De Prospectiva Pingendi, and in his paintings. The engraver Albrecht D\u00fcrer made many references to mathematics in his work Melencolia I. In modern times, the graphic artist M. C. Escher made intensive use of tessellation and hyperbolic geometry, with the help of the mathematician H. S. M. Coxeter, while the De Stijl movement led by Theo van Doesburg and Piet Mondrian explicitly embraced geometrical forms. Mathematics has inspired textile arts such as quilting, knitting, cross-stitch, crochet, embroidery, weaving, Turkish and other carpet-making, as well as kilim. In Islamic art, symmetries are evident in forms as varied as Persian girih and Moroccan zellige tilework, Mughal jali pierced stone screens, and widespread muqarnas vaulting.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nIn summary, this article discusses the relationship between mathematics and art, and how mathematics has been used in visual arts since the 4th century BC. It also looks at how mathematics has been used in modern art, such as in the work of M. C. Escher and the De Stijl movement, as well as in textile arts and Islamic art."
+    },
+    {
+        "instruction": "Improve the article using your knowledge of the topic in order to make it more informative.",
+        "input": "The \"fair trade\" movement, also known as the \"trade justice\" movement, promotes the use of labour, environmental and social standards for the production of commodities, particularly those exported from the Third and Second Worlds to the First World. Such ideas have also sparked a debate on whether trade itself should be codified as a human right.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe fair trade movement has been gaining momentum in recent years, with an increasing number of countries and organizations recognizing the importance of fair trade practices. The World Trade Organization (WTO) has adopted a number of agreements that promote fair trade, such as the Agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPS) and the Agreement on Technical Barriers to Trade (TBT). Additionally, the International Labour Organization (ILO) has developed a number of conventions and recommendations that promote fair trade, such as the Convention on the Elimination of All Forms of Discrimination against Women (CEDAW) and the Convention on the Rights of the Child (CRC).\n\nThe fair trade movement has also been embraced by a number of countries, including the United States, the United Kingdom, Canada, and the European Union. These countries have implemented a number of policies and initiatives to promote fair trade, such as the Fair Trade Labeling Organizations International (FLO) and the Fairtrade Labeling Organizations (FLO-CERT). Additionally, the United Nations has adopted a number of resolutions that promote fair trade, such as the United Nations Declaration on the Rights of Indigenous Peoples (UNDRIP) and the United Nations Sustainable Development Goals (SDGs).\n\nThe fair trade movement has also been embraced by a number of businesses, including large multinational corporations, small and medium-sized enterprises, and cooperatives. These businesses have implemented a number of initiatives to promote fair trade, such as the Fairtrade International (FLO) certification system, which sets standards for the production and sale of fair trade products. Additionally, businesses have adopted a number of corporate social responsibility (CSR) initiatives, such as the Global Reporting Initiative (GRI) and the Global Compact, which promote the adoption of fair trade practices.\n\nThe fair trade movement has also been embraced by a number of civil society organizations, including non-governmental organizations (NGOs), trade unions, and consumer groups. These organizations have implemented a number of initiatives to promote fair trade, such as campaigns to raise awareness of the importance of fair trade, and the development of fair trade standards and certification systems. Additionally, these organizations have advocated for the adoption of fair trade policies at the national and international levels, such as the United Nations Guiding Principles on Business and Human Rights (UNGPs) and the International Labour Organization (ILO) Decent Work Agenda.\n\nFinally, the fair trade movement has been embraced by a number of individuals, including consumers, producers, and workers. Consumers have been encouraged to purchase fair trade products, while producers and workers have been encouraged to adopt fair trade practices. Additionally, individuals have been encouraged to participate in campaigns and initiatives to promote fair trade, such as the Fairtrade International (FLO) certification system and the Global Reporting Initiative (GRI)."
+    },
+    {
+        "instruction": "Make the article available in a second language by translating it into it.",
+        "input": "Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is called a dentist.\nTranslate to French:",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nLa dentisterie, \u00e9galement connue sous le nom de m\u00e9decine dentaire et de m\u00e9decine bucco-dentaire, est la branche de la m\u00e9decine ax\u00e9e sur les dents, les gencives et la bouche. Elle consiste en l'\u00e9tude, le diagnostic, la pr\u00e9vention, la gestion et le traitement des maladies, des troubles et des affections de la bouche, le plus souvent ax\u00e9s sur la dentition (le d\u00e9veloppement et l'agencement des dents) ainsi que sur la muqueuse buccale. La dentisterie peut \u00e9galement englober d'autres aspects du complexe cr\u00e2nio-facial, y compris l'articulation temporo-mandibulaire. Le praticien est appel\u00e9 dentiste."
+    },
+    {
+        "instruction": "An evaluation of the article's quality should be carried out. In order to do so, you should review the quality of the writing and the explanation of the topic.",
+        "input": "The 20th century saw a revolution in music listening as the radio gained popularity worldwide and new media and technologies were developed to record, edit and distribute music. Music performances became increasingly visual with the broadcast and recording of performances.\n20th-century music brought new freedom and wide experimentation with new musical styles and forms that challenged the accepted rules of music of earlier periods. The invention of musical amplification and electronic instruments, especially the synthesizer, in the mid-20th century revolutionized classical and popular music, and accelerated the development of new forms of music.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe article is well-written and provides a comprehensive overview of the changes in music during the 20th century. It explains the impact of new technologies and instruments on the development of music, and provides examples of the new forms of music that emerged. The article is well-researched and provides a clear explanation of the topic. Overall, the article is of high quality."
+    },
+    {
+        "instruction": "Please answer the following question based on the information provided in the article.",
+        "input": "Development studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.  Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nPopular careers for students of development studies include working for international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers."
+    },
+    {
+        "instruction": "Design a syllabus for the given course. Students should be given a list of the chapters with brief explanations of each chapter's purpose.",
+        "input": "Programming for Everybody (Getting Started with Python)",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nCourse Description:\nThis course is designed to introduce students to the basics of programming using the Python programming language. Students will learn the fundamentals of programming, including variables, data types, control structures, functions, and classes.\n\nObjectives:\nAt the end of this course, students will be able to:\n\u2022 Understand the basics of programming\n\u2022 Write basic Python programs\n\u2022 Use variables, data types, control structures, functions, and classes\n\u2022 Debug and troubleshoot code\n\nSyllabus:\nWeek 1: Introduction to Programming\n\u2022 Overview of programming\n\u2022 Introduction to Python\n\u2022 Variables and data types\n\nWeek 2: Control Structures\n\u2022 Conditional statements\n\u2022 Loops\n\u2022 Functions\n\nWeek 3: Working with Data\n\u2022 Lists\n\u2022 Tuples\n\u2022 Dictionaries\n\nWeek 4: Object-Oriented Programming\n\u2022 Classes\n\u2022 Inheritance\n\u2022 Polymorphism\n\nWeek 5: Debugging and Troubleshooting\n\u2022 Debugging techniques\n\u2022 Error handling\n\u2022 Troubleshooting\n\nWeek 6: Final Project\n\u2022 Final project presentation"
+    },
+    {
+        "instruction": "List the personality traits that are required to be successful in the given job.",
+        "input": "Social Media Marketer",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n\n1. Creative\n2. Analytical\n3. Organized\n4. Detail-oriented\n5. Self-motivated\n6. Excellent communication skills\n7. Knowledgeable in digital marketing\n8. Ability to work independently\n9. Ability to work in a team\n10. Adaptable to change"
+    },
+    {
+        "instruction": "Please list the courses that someone interested in the first course might like.",
+        "input": "Bitcoin and Cryptocurrency Technologies",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\nBlockchain Technology\nCryptocurrency Trading\nCryptocurrency Mining\nSmart Contracts\nCryptocurrency Security\nCryptocurrency Regulations\nCryptocurrency Wallets\nCryptocurrency Exchanges\nCryptocurrency Economics\nCryptocurrency Taxation\nCryptocurrency Investment Strategies\nCryptocurrency Risk Management\nCryptocurrency Trading Strategies\nCryptocurrency Market Analysis\nCryptocurrency Trading Platforms\nCryptocurrency Portfolio Management\nCryptocurrency Arbitrage"
+    },
+    {
+        "instruction": "Come up with the courses that one is supposed to take in order to be an expert in a given field.",
+        "input": "Graphic Design",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n1. Introduction to Graphic Design\n2. Typography\n3. Color Theory\n4. Digital Imaging\n5. Layout and Composition\n6. Logo Design\n7. Branding\n8. Web Design\n9. Motion Graphics\n10. User Interface Design\n\nSoftware Engineering:\n1. Introduction to Computer Science\n2. Algorithms and Data Structures\n3. Object-Oriented Programming\n4. Database Design\n5. Software Design and Architecture\n6. Web Development\n7. Mobile Application Development\n8. Cloud Computing\n9. Networking and Security\n10. Artificial Intelligence and Machine Learning"
+    },
+    {
+        "instruction": "Create a daily itinerary based on the given information.",
+        "input": "Our family is looking for a 9-day Morocco trip that has light to moderate activity levels.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nDay 1: Arrive in Marrakech and explore the city. Visit the Koutoubia Mosque, the Saadian Tombs, and the Bahia Palace.\n\nDay 2: Take a day trip to the Ourika Valley. Enjoy the stunning views of the Atlas Mountains and explore the local Berber villages.\n\nDay 3: Visit the Majorelle Garden and the Yves Saint Laurent Museum.\n\nDay 4: Drive to Essaouira and explore the old medina.\n\nDay 5: Take a boat trip to the Iles Purpuraires and explore the islands.\n\nDay 6: Drive to the Sahara Desert and explore the Erg Chebbi dunes.\n\nDay 7: Drive to Fes and explore the old medina.\n\nDay 8: Visit the Nejjarine Museum of Wooden Arts and Crafts and the Bou Inania Madrasa.\n\nDay 9: Depart from Fes."
+    },
+    {
+        "instruction": "Think of an idea to help you win a challenge given to you. Write the steps you need to take to develop the idea as well.",
+        "input": "What can you make by recycling and repurposing some old, previously used materials? We want to see it!\nProjects must incorporate some kind of used materials - take that old used thing, and turn it into something new and different!\nE-waste is a huge problem. What can you make using old electronics and other salvageable electronic materials? \nWe have a special judges prize for our favorite Instructable that incorporates or is related to reusing e-waste.\nBe smart and be safe; note that potentially deadly projects (like Lichtenberg/fractal wood burning machines) will not be allowed to be published or submitted to this contest.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nSteps to Develop Idea:\n1. Brainstorm ideas for projects that can be made using recycled and repurposed materials.\n2. Research the materials needed for the project and the safety precautions that need to be taken when working with them.\n3. Create a plan for the project, including a list of materials and tools needed.\n4. Gather the materials and tools needed for the project.\n5. Follow the plan and create the project.\n6. Take pictures of the project and document the process.\n7. Submit the project to the challenge.\n8. Promote the project on social media and other platforms."
+    },
+    {
+        "instruction": "There are many creative projects we can build at home that are related to the given theme, so let's list some of them.",
+        "input": "Theme: Circuits",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. Create a circuit board game.\n2. Design a circuit-based art project.\n3. Build a circuit-controlled robot.\n4. Construct a circuit-based musical instrument.\n5. Construct a circuit-based light show.\n6. Design a circuit-based alarm system.\n7. Create a circuit-based remote control car.\n8. Construct a circuit-based timer.\n9. Design a circuit-based security system.\n10. Build a circuit-based weather station."
+    },
+    {
+        "instruction": "Make a list of the materials that will be required to build the given tool.",
+        "input": "Coffee Darkness Meter",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n- Soldering iron\n- Solder\n- Multimeter\n- Wires\n- Printed circuit board\n- LEDs\n- Resistor\n- Potentiometer\n- Battery holder\n- 9V battery\n- Enclosure\n- Screws"
+    },
+    {
+        "instruction": "Provide a detailed explanation of the steps that are required in order to construct the given project.",
+        "input": "Steam Engine Using an Empty Beer Can",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. Gather the necessary materials: an empty beer can, a pair of scissors, a drill, a small nail, a small piece of wood, a rubber band, a small piece of wire, and a small piece of aluminum foil.\n\n2. Cut the top off the beer can using the scissors.\n\n3. Drill a small hole in the side of the can near the top.\n\n4. Insert the nail into the hole and secure it with the small piece of wood.\n\n5. Wrap the rubber band around the nail and the can.\n\n6. Wrap the small piece of wire around the nail and the can.\n\n7. Place the small piece of aluminum foil over the top of the can.\n\n8. Place the can on a heat source, such as a stove or a candle.\n\n9. As the can heats up, the rubber band and wire will cause the nail to spin, creating a steam engine."
+    },
+    {
+        "instruction": "Estimate the cost of supplies required to create the given project and calculate the total cost.",
+        "input": "DIY Water Chiller\nRequired items are: Ice-maker, Icebox/cooler, Temperature regulator, Aquarium pump x2, 12V power supply",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ", PVC pipe, PVC fittings, Silicone sealant\n\nIce-maker: $50\nIcebox/cooler: $20\nTemperature regulator: $20\nAquarium pump x2: $50\n12V power supply: $20\nPVC pipe: $10\nPVC fittings: $10\nSilicone sealant: $5\n\nTotal cost: $185"
+    },
+    {
+        "instruction": "Answer the following literature question as accurately as possible based on your knowledge of literature for high school students.",
+        "input": "What does the green light symbolize at the end of the book?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nIn The Great Gatsby, the green light symbolizes hope, renewal, and the promise of the future. It is a symbol of Gatsby's dream of reuniting with Daisy and of his pursuit of the American Dream."
+    },
+    {
+        "instruction": "Make a list of outdoor activities that are suitable for the given weather condition.",
+        "input": "Temperature: 57 F, Showers",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. Hiking in the rain\n2. Birdwatching\n3. Nature photography\n4. Fishing\n5. Kayaking\n6. Boating\n7. Geocaching\n8. Camping\n9. Stargazing\n10. Rock climbing"
+    },
+    {
+        "instruction": "In relation to the given weather scenario, give some tips on how to adjust the travel plans with it.",
+        "input": "a sudden temperature change",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " from hot to cold\n\n1. Wear layers of clothing to adjust to the sudden temperature change.\n2. Bring an umbrella or raincoat in case of rain.\n3. Pack extra blankets and warm clothing in case the temperature drops further.\n4. Bring a thermos of hot tea or coffee to keep warm.\n5. Check the weather forecast regularly to plan ahead.\n6. Consider taking public transportation instead of driving, as it may be safer in inclement weather.\n7. Allow extra time for travel in case of delays due to weather.\n8. Make sure to have a full tank of gas in case of unexpected detours.\n9. Bring snacks and water in case of unexpected delays.\n10. Have a plan B in case the weather is too severe to travel."
+    },
+    {
+        "instruction": "Write a to-do list based on the given information.",
+        "input": "Daily tasks in the pharmacy",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n\n1. Greet customers and answer any questions they may have.\n2. Receive and process prescriptions.\n3. Stock shelves with medications and other products.\n4. Count and organize inventory.\n5. Prepare and package medications for customers.\n6. Maintain records of medications and other products.\n7. Ensure compliance with safety regulations.\n8. Assist customers with insurance paperwork.\n9. Clean and organize the pharmacy.\n10. Monitor expiration dates of medications."
+    },
+    {
+        "instruction": "Answer the following question.",
+        "input": "How do you say \"good evening\" in French.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nBonsoir."
+    },
+    {
+        "instruction": "What sound does this make?",
+        "input": "\u597d",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThis sound does not make a sound."
+    },
+    {
+        "instruction": "This is a test for the reading ability of French. Read the given story carefully, and then answer the question in the end.",
+        "input": "Lucie est \u00e0 la maison avec sa petite-fille, Lin.\nLucie: Oh, non! Nous n'avons pas de pain!\nLin: Ah! Tu vas au supermarch\u00e9?\nLucie: Oui, je veux une baguette pour mon sandwich.\nDo Lin and Lucie have a lot of bread?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nNon, ils n'ont pas beaucoup de pain."
+    },
+    {
+        "instruction": "Provide a cooking hack for improving the flavor of the given food.",
+        "input": "popcorn",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ": To improve the flavor of popcorn, try adding a sprinkle of Parmesan cheese or a pinch of garlic powder before popping. You can also try adding a few drops of melted butter or olive oil to the kernels before popping for a richer flavor."
+    },
+    {
+        "instruction": "Describe how to prepare the given food in your own words. Note down the ingredients you will need and the steps you will take to prepare them.",
+        "input": "Chewy Chocolate Chip Cookies",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nIngredients:\n- 2 1/4 cups all-purpose flour\n- 1 teaspoon baking soda\n- 1 teaspoon salt\n- 1 cup (2 sticks) butter, softened\n- 3/4 cup granulated sugar\n- 3/4 cup packed brown sugar\n- 1 teaspoon vanilla extract\n- 2 large eggs\n- 2 cups (12-oz. pkg.) semisweet chocolate chips\n\nSteps:\n1. Preheat oven to 375\u00b0F.\n2. In a medium bowl, whisk together the flour, baking soda, and salt.\n3. In a large bowl, cream together the butter, granulated sugar, brown sugar, and vanilla extract until light and fluffy.\n4. Beat in the eggs one at a time until fully incorporated.\n5. Gradually add the flour mixture to the butter mixture, stirring until just combined.\n6. Stir in the chocolate chips.\n7. Drop the dough by rounded tablespoonfuls onto ungreased baking sheets.\n8. Bake for 8 to 10 minutes, or until golden brown.\n9. Allow the cookies to cool on the baking sheets for a few minutes before transferring to a wire rack to cool completely."
+    },
+    {
+        "instruction": "Solve the given Sudoku puzzle.",
+        "input": "The Sudoku puzzle is:\n|1|  |5|  |  |  |  |8|  |\n|  |  |  |  |  |3|  |6|4|\n|8|3|4|6|7|  |9|  |  |\n|2|9|1|  |  |8|3|7|6|\n|  |  |6|  |  |9|8|1|  |\n|  |  |  |  |  |2|  |  |  |\n|  |2|  |  |9|7|6|  |  |\n|5|4|  |  |  |  |  |9|8|\n|6|1|  |  |  |5|4|3|7|",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe solved Sudoku puzzle is:\n|1|7|5|2|4|6|9|8|3|\n|9|8|2|1|5|3|7|6|4|\n|8|3|4|6|7|1|9|2|5|\n|2|9|1|5|3|8|3|7|6|\n|4|5|6|7|2|9|8|1|3|\n|7|6|3|4|1|2|5|4|9|\n|3|2|8|9|6|7|6|5|1|\n|5|4|7|3|8|1|2|9|8|\n|6|1|9|8|2|5|4|3|7|"
+    },
+    {
+        "instruction": "Choose the best books from the given genre.",
+        "input": "Crime & Mystery",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. The Girl with the Dragon Tattoo by Stieg Larsson\n2. The Da Vinci Code by Dan Brown\n3. And Then There Were None by Agatha Christie\n4. Gone Girl by Gillian Flynn\n5. The Silence of the Lambs by Thomas Harris\n6. The Alienist by Caleb Carr\n7. The Name of the Rose by Umberto Eco\n8. The Girl on the Train by Paula Hawkins\n9. The Hound of the Baskervilles by Arthur Conan Doyle\n10. The Murder of Roger Ackroyd by Agatha Christie"
+    },
+    {
+        "instruction": "Give a brief description of the book that you are given.",
+        "input": "Matilda",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " is a classic children's novel by Roald Dahl. It tells the story of a young girl, Matilda, who is a genius but is constantly underestimated by her family and school. With the help of her teacher, Miss Honey, Matilda discovers her own special powers and uses them to outwit her cruel headmistress, Miss Trunchbull. Matilda is a heartwarming story of courage and resilience that celebrates the power of the imagination."
+    },
+    {
+        "instruction": "In the event that a person enjoyed the book that was given, please suggest other books that they might also like.",
+        "input": "The Great Gatsby",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " by F. Scott Fitzgerald\nThe Catcher in the Rye by J.D. Salinger\nThe Grapes of Wrath by John Steinbeck\nTo Kill a Mockingbird by Harper Lee\nThe Sun Also Rises by Ernest Hemingway\nThe Lord of the Rings by J.R.R. Tolkien\nThe Adventures of Huckleberry Finn by Mark Twain\nThe Picture of Dorian Gray by Oscar Wilde\nThe Alchemist by Paulo Coelho\nThe Kite Runner by Khaled Hosseini\nThe Hunger Games by Suzanne Collins\nThe Fault in Our Stars by John Green\nThe Book Thief by Markus Zusak\nBrave New World by Aldous Huxley\n1984 by George Orwell"
+    },
+    {
+        "instruction": "Indicate the genre of the book to which it belongs.",
+        "input": "Love in the Time of Cholera",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nRomance"
+    },
+    {
+        "instruction": "Solve this equation.",
+        "input": "x^3 - 4x^2 + 6x - 24 = 0",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe solution to this equation is x = 4, 2, -3."
+    },
+    {
+        "instruction": "Prove the given statement using your information.",
+        "input": "\"If x is a positive integer or a solution to x+3>4, then x>0 and x>12.\"",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nProof:\n\nLet x be a positive integer or a solution to x+3>4.\n\nSince x is a positive integer, it follows that x>0.\n\nNow, let us assume that x+3>4.\n\nThen, x>1.\n\nAdding 3 to both sides, we get x+3>4.\n\nTherefore, x>12.\n\nHence, it follows that x>0 and x>12."
+    },
+    {
+        "instruction": "Based on the facts that have been provided, prove the following statement.",
+        "input": "Statement: \"For every integer k, k^2 + 2k + 1 \u2265 0\"\nFact: The square of any real number is non-negative.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nProof: Let k be an arbitrary integer. Then, k^2 + 2k + 1 = (k^2 + 2k) + 1 = k^2 + 2k + (1^2) \u2265 k^2 + 2k + 0 = k^2 + 2k \u2265 0. Therefore, for every integer k, k^2 + 2k + 1 \u2265 0."
+    },
+    {
+        "instruction": "Verify the correctness of the given statement.",
+        "input": "\"For all integers j and k, if j and k are odd, then jk is odd.\"",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThis statement is true."
+    },
+    {
+        "instruction": "Provide a formula for computing the nth term in the given sequence",
+        "input": "5, 14, 23, 32, 41, ...",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nnth term = 5 + (n - 1) * 9"
+    },
+    {
+        "instruction": "Create a table listing all games that meet the specified criteria in the National Football League. Use the season, local time, game, and score as columns of the table.",
+        "input": "Ravens home games in 2011",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n| Season | Local Time | Game | Score |\n|-------|-----------|------|-------|\n| 2011  | 1:00 PM   | Ravens vs. Steelers | 35-7 |\n| 2011  | 1:00 PM   | Ravens vs. Bengals  | 24-16 |\n| 2011  | 1:00 PM   | Ravens vs. Browns   | 20-14 |\n| 2011  | 1:00 PM   | Ravens vs. Texans   | 29-14 |\n| 2011  | 1:00 PM   | Ravens vs. 49ers   | 16-6  |\n| 2011  | 1:00 PM   | Ravens vs. Rams    | 37-7  |\n| 2011  | 1:00 PM   | Ravens vs. Seahawks| 22-17 |\n| 2011  | 1:00 PM   | Ravens vs. Cardinals| 30-27 |\n| 2011  | 1:00 PM   | Ravens vs. Jaguars | 12-7  |\n| 2011  | 1:00 PM   | Ravens vs. Titans  | 24-10 |\n| 2011  | 1:00 PM   | Ravens vs. Colts   | 24-10 |\n| 2011  | 1:00 PM   | Ravens vs. Steelers| 13-10 |"
+    },
+    {
+        "instruction": "Using a table, compare the career overviews of the given players in Major League Baseball. Use \"|\" for separating the columns in the table.",
+        "input": "Derek Jeter, Albert Pujols",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n| Player | Career Overview |\n| --- | --- |\n| Derek Jeter | 20-year career with the New York Yankees; 5-time World Series champion; 14-time All-Star; 5-time Gold Glove Award winner; 2000 AL MVP |\n| Albert Pujols | 20-year career with the St. Louis Cardinals, Los Angeles Angels, and Kansas City Royals; 3-time World Series champion; 10-time All-Star; 2-time Gold Glove Award winner; 2005 NL MVP |"
+    },
+    {
+        "instruction": "You will be tested on your knowledge of classic witticisms and aphorisms by completing the given aphorism. Write the original quote as the answer.",
+        "input": "two things are infinite",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ": the universe and human stupidity\n\n\"The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.\" - Albert Einstein"
+    },
+    {
+        "instruction": "A list of all movies that meet the criteria given should be compiled.",
+        "input": "movies directed by Spike Lee by release date",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. She's Gotta Have It (1986)\n2. School Daze (1988)\n3. Do the Right Thing (1989)\n4. Mo' Better Blues (1990)\n5. Jungle Fever (1991)\n6. Malcolm X (1992)\n7. Crooklyn (1994)\n8. Clockers (1995)\n9. Girl 6 (1996)\n10. He Got Game (1998)\n11. Summer of Sam (1999)\n12. Bamboozled (2000)\n13. 25th Hour (2002)\n14. She Hate Me (2004)\n15. Inside Man (2006)\n16. Miracle at St. Anna (2008)\n17. Red Hook Summer (2012)\n18. Da Sweet Blood of Jesus (2014)\n19. Chi-Raq (2015)\n20. BlacKkKlansman (2018)"
+    },
+    {
+        "instruction": "Using a given amount, determine an appropriate tip.",
+        "input": "14% tip on $47.50",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " would be $6.65."
+    },
+    {
+        "instruction": "Identify all words that match the pattern given.",
+        "input": "H_AR_",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nHARD, HARM, HARK"
+    },
+    {
+        "instruction": "Come up with words that rhyme with the given word.",
+        "input": "instruct",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nconduct, construct, destruct, induct, intersect, object, perfect, reflect, select, suspect."
+    },
+    {
+        "instruction": "Look for poems that mention the given object or character. The names of the poems and their poets should be written.",
+        "input": "santa claus",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. \"Santa Claus\" by Ogden Nash\n2. \"Santa Claus Is Coming to Town\" by John Frederick Coots and Haven Gillespie\n3. \"Santa Claus Is Coming\" by Clement Clarke Moore\n4. \"Santa Claus\" by Robert Louis Stevenson\n5. \"Santa Claus\" by Robert William Service\n6. \"Santa Claus\" by William Rose Ben\u00e9t\n7. \"Santa Claus\" by Robert Graves\n8. \"Santa Claus\" by Robert P. Tristram Coffin\n9. \"Santa Claus\" by Robert Frost\n10. \"Santa Claus\" by Langston Hughes"
+    },
+    {
+        "instruction": "Respond to the last text in the chat using the correct emojis to convey your feelings.",
+        "input": "+ Hey, how did your exams go?\n- They were alright. I'm just glad they're over.\n+ Yeah, I know how you feel. I'm just glad I don't have to worry about them anymore.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " \ud83d\ude0c"
+    },
+    {
+        "instruction": "For answering the chat, think of a funny response you can use.",
+        "input": "+ how are you?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\nI'm doing great! How about you?"
+    },
+    {
+        "instruction": "The last message in the chat is a partial response. You should complete and rewrite it.",
+        "input": "+ What are going to do now?\n- I don't know. I had to give up my dream of being a mathematician.\n+ Why",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " did you have to give up your dream?\n- I didn't have the resources or the support to pursue it. But I'm still looking for ways to use my skills and knowledge in a meaningful way."
+    },
+    {
+        "instruction": "Change the response to have a more empathic tone in the chat.",
+        "input": "+ How are you doing?\n- Fine, I had a bunch of problems today.\n+ What kind of problems?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\nI'm sorry to hear that. Can you tell me more about what happened?"
+    },
+    {
+        "instruction": "Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the meeting information from the conversation.",
+        "input": "Person 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ""
+    },
+    {
+        "instruction": "The given text must be classified as offensive or not offensive.",
+        "input": "You acted really crazy last night.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nNot offensive."
+    },
+    {
+        "instruction": "Give a brief summary of the intention of the dialogue that just happened.",
+        "input": "Customer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe intention of the dialogue was for the customer to find a new phone with a good camera, and the AI was helping the customer by offering some options."
+    },
+    {
+        "instruction": "Describe the content of the article in a brief manner.",
+        "input": "A study published earlier this year by Zee and her team examined the role of light in sleep for healthy adults in their 20s. Sleeping for only one night with a dim light, such as a TV set with the sound off, raised the blood sugar and heart rate of the young people during the sleep lab experiment. An elevated heart rate at night has been shown in prior studies to be a risk factor for future heart disease and early death, while higher blood sugar levels are a sign of insulin resistance, which can ultimately lead to type 2 diabetes.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " The study concluded that even a small amount of light exposure at night can have a significant impact on health."
+    },
+    {
+        "instruction": "Correct the transcription of an excerpt containing errors.",
+        "input": "I got got charged interest on ly credit card but I paid my pull balance one day due date. I not missed a pavement year yet. Man you reverse the interest charge?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nI got charged interest on my credit card but I paid my full balance one day before the due date. I haven't missed a payment in a year yet. Can you reverse the interest charge?"
+    },
+    {
+        "instruction": "Take a look at the contract and extract the parties of the agreement from it.",
+        "input": "As of the 13th day of December 2021, this Music Recording Agreement (\"Agreement\") is made between Good Kid, a Toronto-based musical group (\"Artist\"), and Universal Music Group, a record label with license number 545345 (\"Record Label\"). The Artist and the Recording Label may be referred to in this Agreement individually as \"Parties\" and collectively as \"Parties.\" Work under this Agreement will begin on March 15, 2022, and will last for the duration of the Agreement.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ""
+    },
+    {
+        "instruction": "On the basis of the subject of the email, determine whether the email should be treated as spam or not.",
+        "input": "Dermatologists don't like her!",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThis email should not be treated as spam."
+    },
+    {
+        "instruction": "Classify the tweet into one of the following three categories: event, demo, or news. Event is a happening, often social or public, that people attend or are aware of. Demo is a  public showing or presentation of something, typically to promote or advertise it. And, news is information about recent events or happenings, especially as reported by news media.",
+        "input": "Using this tutorial, you can analyze and classify a user\u2019s review as either positive or negative using sentiment analysis features in an existing Next.js app. We show you how to leverage language AI into your applications. Check it out \u2193",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nDemo"
+    },
+    {
+        "instruction": "Give the news title a category. Pick a category from the list of News & Buzz, Travel, Style, Arts & Culture, Politics, Tech, and Science & Health.",
+        "input": "The #Banksy Exhibit in Cambridge, MA is absolutely terrific.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nArts & Culture"
+    },
+    {
+        "instruction": "Classify the questions in the FAQ into Finding policy details, Change account settings, Filing a claim and viewing status, or Cancelling coverage.",
+        "input": "Could you deposit money into my account rather than mailing me a physical cheque?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\nChange account settings"
+    },
+    {
+        "instruction": "Choose an appealing title for your post.",
+        "input": "The typical avocado is over 300 calories from the oil in it. That\u2019s the amount of calories in a large candy bar. If you get enough exercise to eat a large candy bar every day without gaining weight, it wouldn\u2019t be a problem to eat an avocado every day. Other wise you should probably eat them sparingly.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n\"The Surprising Calorie Count of Avocados: Is Eating One Every Day Too Much?\""
+    },
+    {
+        "instruction": "Give some examples of what people usually say in the given social situation.",
+        "input": "when someone arrives safely",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " after a long journey:\n\n1. \"Welcome back! We've missed you!\"\n2. \"Glad you made it in one piece!\"\n3. \"It's so good to see you!\"\n4. \"We were worried about you!\"\n5. \"It's great to have you home!\""
+    },
+    {
+        "instruction": "You will be required to write a few questions from the given company's interview section.",
+        "input": "Kohl's",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. What experience do you have working in a customer service environment?\n2. How would you handle a difficult customer situation?\n3. What do you think makes a successful customer service representative?\n4. How do you stay organized and manage multiple tasks?\n5. What do you think sets Kohl's apart from other retailers?\n6. How do you handle working in a fast-paced environment?\n7. Describe a time when you had to think quickly and solve a problem.\n8. What do you think is the most important quality for a customer service representative to possess?\n9. How do you handle working with a team to achieve a common goal?\n10. What do you think is the key to providing excellent customer service?"
+    },
+    {
+        "instruction": "Based on the information provided, you need to estimate the average summary for the given job.",
+        "input": "Data entry clerk in United States",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe average salary for a Data Entry Clerk in the United States is $31,845 per year."
+    },
+    {
+        "instruction": "Describe the responsibilities of the given job.",
+        "input": "Security Officer",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n\nA Security Officer is responsible for protecting people, property, and assets from harm. This includes monitoring the premises, responding to alarms, conducting patrols, and enforcing safety regulations. They may also be responsible for investigating incidents, writing reports, and providing customer service. Security Officers must be able to remain alert and vigilant at all times, and must be able to respond quickly and effectively to any security-related issues."
+    },
+    {
+        "instruction": "Provide a list of the skills that may help you find the job.",
+        "input": "Crew Members",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. Excellent customer service skills\n2. Ability to work in a fast-paced environment\n3. Ability to work independently and as part of a team\n4. Ability to take direction and follow instructions\n5. Ability to multi-task and prioritize tasks\n6. Ability to handle cash and credit transactions\n7. Knowledge of food safety and sanitation standards\n8. Knowledge of food preparation and presentation\n9. Ability to lift and carry heavy items\n10. Ability to stand for long periods of time\n11. Ability to work flexible hours, including nights and weekends\n12. Ability to communicate effectively with customers and coworkers\n13. Ability to work in a hot and humid environment\n14. Ability to work in a noisy environment\n15. Ability to work with minimal supervision"
+    },
+    {
+        "instruction": "Schedule the meetings based on the given informqation.",
+        "input": "Person1: available from 9-11 am, meeting duration: 30 min \nPerson2: available from 1-3 pm, meeting duration: 90 min\nPerson3: available from 2-3:30 pm, meeting duration: 60 min",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nMeeting 1: 9-9:30 am with Person1 \nMeeting 2: 1-2:30 pm with Person2 \nMeeting 3: 2-3:30 pm with Person3"
+    },
+    {
+        "instruction": "Find the directions between the given locations.",
+        "input": "From: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. Head south on S Rowan Ave toward W 60th St\n2. Turn left onto W 60th St\n3. Turn right onto S Main St\n4. Turn left onto E Whittier Blvd\n5. Turn right onto N Soto St\n6. Turn left onto E Whittier Blvd\n7. Turn right onto N Rowan Ave\n8. Turn left onto Whittier Blvd\n9. Destination will be on the right"
+    },
+    {
+        "instruction": "Give a brief explanation of the requested part of the paper.",
+        "input": "Paper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The Transformer is a new simple network architecture that is based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show that the Transformer is superior in quality while being more parallelizable and requiring significantly less time to train. The Transformer has also been applied successfully to English constituency parsing both with large and limited training data."
+    },
+    {
+        "instruction": "Answer the question about the paper after reading it carefully.",
+        "input": "To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\nAnswer: English constituency parsing is a task that involves analyzing the structure of a sentence by breaking it down into its component parts (constituents) and labeling them according to their syntactic role."
+    },
+    {
+        "instruction": "Convert the given HTML into Markdown format.",
+        "input": "<code>Use `code` in your Markdown file.</code>",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n`Use `code` in your Markdown file.`"
+    },
+    {
+        "instruction": "Extract the method that has been used in the research from the abstract of the paper. Give the exact sentences from the abstract that discuss the method.",
+        "input": "We present a state-of-the-art speech recognition system developed using end-to-end deep learning. Our architecture is significantly simpler than traditional speech systems, which rely on laboriously engineered processing pipelines; these traditional systems also tend to perform poorly when used in noisy environments. In contrast, our system does not need hand-designed components to model background noise, reverberation, or speaker variation, but instead directly learns a function that is robust to such effects. We do not need a phoneme dictionary, nor even the concept of a \"phoneme.\" Key to our approach is a well-optimized RNN training system that uses multiple GPUs, as well as a set of novel data synthesis techniques that allow us to efficiently obtain a large amount of varied data for training. Our system, called Deep Speech, outperforms previously published results on the widely studied Switchboard Hub5'00, achieving 16.0% error on the full test set. Deep Speech also handles challenging noisy environments better than widely used, state-of-the-art commercial speech systems.Collapse",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n\"We present a state-of-the-art speech recognition system developed using end-to-end deep learning.\"\n\"Key to our approach is a well-optimized RNN training system that uses multiple GPUs, as well as a set of novel data synthesis techniques that allow us to efficiently obtain a large amount of varied data for training.\""
+    },
+    {
+        "instruction": "You need to come up with the names of some of the papers that relate to the paper you are given.",
+        "input": "RoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. Multi-evidence Question Answering: A Survey\n2. Robust Question Answering: A Comprehensive Review\n3. Multi-evidence Question Answering: Challenges and Opportunities\n4. Multi-evidence Question Answering: A Systematic Approach\n5. Robust Multi-evidence Question Answering: A Comparative Analysis\n6. Multi-evidence Question Answering: A Novel Approach\n7. Robust Multi-evidence Question Answering: A Comprehensive Evaluation\n8. Multi-evidence Question Answering: A Comprehensive Evaluation Framework\n9. Robust Multi-evidence Question Answering: A Comprehensive Benchmark\n10. Multi-evidence Question Answering: A Comprehensive Evaluation and Benchmarking Framework"
+    },
+    {
+        "instruction": "Create a short, concise summary of the paper based on its abstract.",
+        "input": "Few-shot learning (FSL) is one of the key future steps in machine learning and raises a lot of attention. In this paper, we focus on the FSL problem of dialogue understanding, which contains two closely related tasks: intent detection and slot filling. Dialogue understanding has been proven to benefit a lot from jointly learning the two sub-tasks. However, such joint learning becomes challenging in the few-shot scenarios: on the one hand, the sparsity of samples greatly magnifies the difficulty of modeling the connection between the two tasks; on the other hand, how to jointly learn multiple tasks in the few-shot setting is still less investigated. In response to this, we introduce FewJoint, the first FSL benchmark for joint dialogue understanding. FewJoint provides a new corpus with 59 different dialogue domains from real industrial API and a code platform to ease FSL experiment set-up, which are expected to advance the research of this field. Further, we find that insufficient performance of the few-shot setting often leads to noisy sharing between two sub-task and disturbs joint learning. To tackle this, we guide slot with explicit intent information and propose a novel trust gating mechanism that blocks low-confidence intent information to ensure high quality sharing. Besides, we introduce a Reptile-based meta-learning strategy to achieve better generalization in unseen few-shot domains. In the experiments, the proposed method brings significant improvements on two datasets and achieve new state-of-the-art performance.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ""
+    },
+    {
+        "instruction": "You will need to compose the ABC notation for a given song.",
+        "input": "The South Wind",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nX:1\nT:The South Wind\nM:4/4\nL:1/8\nK:D\nD2|:F2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nF2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nF2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nF2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|"
+    },
+    {
+        "instruction": "Categorize the given magazine based on its content into one of the categories: Politics, Entertainment News, Tech News, Business News, Parenting & Kids, Health & Healing, Cooking, Food & Wine, and Arts & Literature,",
+        "input": "Inc.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " Magazine\n\nBusiness News"
+    },
+    {
+        "instruction": "Decide if the given email belongs to the Promotions or Social category.",
+        "input": "Subject: You have an invitation\nEmail: Hi, I'd like to join your LinkedIn network.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nSocial"
+    },
+    {
+        "instruction": "The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis.",
+        "input": "\ud83e\uddd9\u200d\u2642\ufe0f\ud83d\udeaa\ud83d\udcda\ud83e\udd85\u26a1",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\ufe0f\n\nHarry Potter and the Sorcerer's Stone"
+    },
+    {
+        "instruction": "Change the first person to the third person in the given sentence. The meaning should be kept, but you can paraphrase it or expand it in order to have a better pose.",
+        "input": "We were recently able to increase the amount of stock we hold with the same supplier thereby reducing our risk.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThey were recently able to increase the amount of stock held with the same supplier, thus reducing their risk."
+    },
+    {
+        "instruction": "You should capitalize the sentence according to the guide.",
+        "input": "Guide: Every other letter alternates between lower case and upper case.\nSentence: A giant spider blocks your path.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nA GiAnT SpIdEr BlOcKs YoUr PaTh."
+    },
+    {
+        "instruction": "Create alliterations by finding synonyms for words in the given sentence.",
+        "input": "David wears a hat everyday.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nDapper David dons a dashing derby daily."
+    },
+    {
+        "instruction": "Convert the given description to a bash command.",
+        "input": "read the first 10 lines from f",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "1.txt\n\nhead -n 10 f1.txt"
+    },
+    {
+        "instruction": "Please prepare a table containing a summary of the information of the participants at the conference.",
+        "input": "The conference was called to discuss how to improve the quality of education in schools. The main speaker was Professor Crew Purdie (cpurdie@email.com), who spoke about the importance of setting high standards for students and teachers. He said that schools should be places where students can learn and be challenged. Other speakers included Teacher Oliver Malachi (oliver@email.com) and Parent Kolby Reese (kolbyreese82@email.com). The teacher talked about the need for teachers to be well-prepared and to have high expectations for their students. The parent spoke about the need for parents to be involved in their children's education. There was also a discussion about the importance of funding for schools.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nName  | Email Address | Role\n--- | --- | ---\nProfessor Crew Purdie | cpurdie@email.com | Main Speaker\nTeacher Oliver Malachi | oliver@email.com | Speaker\nParent Kolby Reese | kolbyreese82@email.com | Speaker"
+    },
+    {
+        "instruction": "List the concepts that should be learned before approaching the given complex concept.",
+        "input": "Deep Learning",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n\n1. Machine Learning\n2. Neural Networks\n3. Artificial Intelligence\n4. Data Structures and Algorithms\n5. Linear Algebra\n6. Probability and Statistics\n7. Calculus\n8. Computer Programming\n9. Optimization Techniques\n10. Data Preprocessing"
+    },
+    {
+        "instruction": "Given a sentence that may be ambiguous, rewrite the sentence using less ambiguous words.",
+        "input": "The chicken is ready to eat.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe chicken is cooked and ready to be consumed."
+    },
+    {
+        "instruction": "Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral.",
+        "input": "\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nPositive"
+    },
+    {
+        "instruction": "You are given a Python command and are required to convert it into Ruby.",
+        "input": "print(\"Hello World!\")",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nputs \"Hello World!\""
+    },
+    {
+        "instruction": "You are given a sentence in first-order logic. Translate it into natural language.",
+        "input": "\u2203x\u2200y(soldier(x)\u2192general(x,y))",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThere exists an x such that for all y, if x is a soldier then x is a general of y.\n\nTranslation: There is at least one soldier who is a general of everyone."
+    },
+    {
+        "instruction": "You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant.",
+        "input": "Search: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nRelevant."
+    },
+    {
+        "instruction": "Create a list of subtopics for the given topic.",
+        "input": "Music theory",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. Notation\n2. Scales\n3. Chords\n4. Intervals\n5. Keys\n6. Rhythm\n7. Harmony\n8. Transposition\n9. Modulation\n10. Form and Structure"
+    },
+    {
+        "instruction": "Summarize the movie in a snarky way. Try to explain the movie in just one sentence.",
+        "input": "The Shining",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " is a horror movie about a family who spends a winter in a haunted hotel, only to find out that the real monsters are the ones living inside their own heads."
+    },
+    {
+        "instruction": "Enter the words that satisfy the given condition.",
+        "input": "5 Countries that Start with S",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. Spain\n2. Sweden\n3. Switzerland\n4. Serbia\n5. Sudan"
+    },
+    {
+        "instruction": "Provide a name for the dish given the ingredients and instructions.",
+        "input": "INGREDIENTS:\n2 (5 oz) cans Bumble Bee\u00ae Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nSpicy Tuna Avocado Wraps"
+    },
+    {
+        "instruction": "Summarize a meeting from the given list of bullet points. Be sure to convert shorthand into a first-hand account.",
+        "input": "Rose: Analyze data and presents findings\nJohn: propose new idea\nJane: appointed to head project\nTom: need more time to fix software bug",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nAt the meeting, Rose presented her analysis of the data and her findings. John proposed a new idea, and Jane was appointed to head the project. Tom mentioned that they needed more time to fix a software bug."
+    },
+    {
+        "instruction": "List a few popular songs from the given album.",
+        "input": "Back To Black",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " (Amy Winehouse)\nRehab (Amy Winehouse)\nYou Know I'm No Good (Amy Winehouse)\nMe & Mr Jones (Amy Winehouse)\nJust Friends (Amy Winehouse)\nTears Dry On Their Own (Amy Winehouse)\nLove Is A Losing Game (Amy Winehouse)\nWake Up Alone (Amy Winehouse)\nSome Unholy War (Amy Winehouse)\nHe Can Only Hold Her (Amy Winehouse)\nAddicted (Amy Winehouse)"
+    },
+    {
+        "instruction": "Invent a new word based on a description of the word.",
+        "input": "The feeling of knowing, while you are still in the moment, that something occurring will be remembered forever.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nRememorance"
+    },
+    {
+        "instruction": "Given a programming language and the name of a function, write a command to show how to use the function.",
+        "input": "Language: Python\nFunction: input",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "()\n\nCommand: print(\"Enter a value:\") value = input()"
+    },
+    {
+        "instruction": "Provide a pleasant compliment based on the quality you have been given.",
+        "input": "Truthfulness",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ": You are always so honest and trustworthy. It's a quality I really admire."
+    },
+    {
+        "instruction": "Create a brief resume introduction using the following information.",
+        "input": "name: Mark\nnationality: Italian\nlanguage: English\nattributes: creative, goal-oriented, motivated\nskills: software engineering, content marketing",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nI am Mark, an Italian national with a creative, goal-oriented, and motivated attitude. I have extensive experience in software engineering and content marketing."
+    },
+    {
+        "instruction": "Make a list of adjectives that can be used to describe the given brand.",
+        "input": "a creative tech startup",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n\n-Innovative\n-Dynamic\n-Forward-thinking\n-Cutting-edge\n-Agile\n-Disruptive\n-Groundbreaking\n-Revolutionary\n-Ambitious\n-Progressive\n-Resourceful\n-Intuitive\n-Adaptable\n-Flexible"
+    },
+    {
+        "instruction": "Someone gives you some information about where they want to go and what they enjoy seeing and doing. Describe a proper road trip for them and find the best stops and sctivities in the way.",
+        "input": "I'm looking for a west coast road trip. My goal is to start near San Diego and travel to Los Angeles.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " I enjoy seeing nature, visiting historical sites, and trying new foods.\n\nThis is a great road trip! You'll get to experience the best of the west coast. \n\nStarting in San Diego, you can visit the San Diego Zoo, Balboa Park, and the USS Midway Museum. You can also take a day trip to La Jolla to explore the beaches and tide pools. \n\nFrom San Diego, you can drive up the coast to Orange County. Here, you can visit the Mission San Juan Capistrano, the Laguna Beach Art Museum, and the Crystal Cove State Park. \n\nNext, you can drive to Los Angeles. Along the way, you can stop in Santa Barbara to visit the Santa Barbara Mission and the Santa Barbara Zoo. You can also take a detour to Solvang to experience the Danish culture and try some of the local food. \n\nOnce you reach Los Angeles, you can explore the Hollywood Walk of Fame, the Griffith Observatory, and the Getty Center. You can also take a day trip to Santa Monica to visit the Santa Monica Pier and the Third Street Promenade. \n\nThis is a great road trip that will give you the chance to experience the best of the west coast. Enjoy your trip!"
+    },
+    {
+        "instruction": "Regex is a set of characters that define a search pattern. This kind of pattern is usually used by string-searching algorithms to find or replace strings or to validate inputs. Convert the natural english text to regex.",
+        "input": "Match a valid ip address",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n\n\\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b"
+    },
+    {
+        "instruction": "Write an engaging and well-written property listing description for selling a house. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.",
+        "input": "Property Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n- Master suite with walk-in closet\n\nWelcome to 412 Monterey Ave, a stunning 3-bedroom, 2-bathroom home located in the heart of Capitola. This home offers an open floorplan with plenty of natural light and views of the park and mountains from the windows. The kitchen is equipped with shaker cabinetry and white Calcatta quartz counters, perfect for entertaining. The master suite features a walk-in closet and a luxurious bathroom with a soaking tub.\n\nOutside, you'll find a large backyard with plenty of room for outdoor activities. There is also a finished single car garage with space for three additional cars in the driveway.\n\nThis home is the perfect place to call home. Don't miss out on this opportunity to own a piece of paradise. Schedule a showing today!"
+    },
+    {
+        "instruction": "Given a real estate listing description, extract the information and details of the property from the text. The details consist of address, basic house attributes, etc.",
+        "input": "WALK TO THE BEACH FROM CAPITOLA KNOLLS! Single-level upstairs condo with your own large private deck overlooking nature. Adorable home that is move-in ready and waiting for you to put your own personal touches on. Gorgeous and well-maintained landscaped park-like setting with lush green grasses with a community pool and spa to enjoy. Desirable location...walk to Capitola Village, Gayle's Bakery, restaurants, shopping, schools or jump on Hwy 1 right around the corner.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nAddress: Capitol Knolls, Capitola, CA\n\nBasic House Attributes: Single-level upstairs condo, large private deck, move-in ready, community pool and spa."
+    },
+    {
+        "instruction": "Review the property description and tell us what is good and what is bad about it and list its key takeaways.",
+        "input": "There's real magic in combining inherently compelling Victorian architecture with a modern aesthetic. Add in an extraordinary multi-level garden & the result is the undeniable elegance of 444 29th St. The front of the home is light-filled w/ a seamless connection between living, dining & kitchen. Newly updated kitchen w/ quartz counters & upgraded appliances. A lg dining rm has a bay of windows &, when paired w/ the adjacent living rm, provides an ideal space to entertain. 2 lg bdrms on this level are at the rear. Both w/ lg closets & walk out to the garden. Stylishly remodeled full bath on this level. 3rd bdrm/2nd full bath are located on the ground floor - perfect as a guest rm, home office, fitness area, etc. The enormous garden occupies an extra deep lot & is beautifully landscaped & terraced. Laundry/storage rm, 1-car garage pkg, Tesla solar panels. Prime, flat part of Noe Valley - short walk to all that Noe has to offer. Steps from the J-Church & convenient to shuttles/freeways.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nGood: \n- Combines Victorian architecture with modern aesthetic\n- Light-filled front of the home\n- Newly updated kitchen with quartz counters and upgraded appliances\n- Large dining room with bay of windows\n- Two large bedrooms with large closets\n- Stylishly remodeled full bath\n- Third bedroom/second full bath on ground floor\n- Enormous garden occupying an extra deep lot\n- Beautifully landscaped and terraced\n- Laundry/storage room\n- One-car garage parking\n- Tesla solar panels\n- Prime, flat part of Noe Valley\n- Short walk to all that Noe has to offer\n- Steps from the J-Church\n- Convenient to shuttles/freeways\n\nBad: \n- None\n\nKey Takeaways:\n- Combines Victorian architecture with modern aesthetic\n- Newly updated kitchen with quartz counters and upgraded appliances\n- Two large bedrooms with large closets\n- Third bedroom/second full bath on ground floor\n- Enormous garden occupying an extra deep lot\n- Laundry/storage room\n- One-car garage parking\n- Tesla solar panels\n- Prime, flat part of Noe Valley\n- Short walk to all that Noe has to offer\n- Steps from the J-Church\n- Convenient to shuttles/freeways"
+    },
+    {
+        "instruction": "Suggest some product bundles that are often purchased with a given product.",
+        "input": "MacBook Air",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n\n1. External Hard Drive\n2. Printer\n3. Wireless Mouse\n4. Laptop Bag\n5. USB Flash Drive\n6. Headphones\n7. External Monitor\n8. Surge Protector\n9. Office Suite Software\n10. Memory Card Reader"
+    },
+    {
+        "instruction": "As part of software engineering, user stories describe what the user wants the system to do, while acceptance criteria describe the conditions a specific user story must meet. Create basic acceptance criteria based on the given user story.",
+        "input": "User story: As a user, I want to use a search field to type a city, name, or street, so that I could find matching hotel options.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nAcceptance Criteria:\n1. The search field should be clearly visible on the page.\n2. The search field should accept any combination of letters, numbers, and special characters.\n3. The search results should be displayed in a list format.\n4. The list should include the name, address, and rating of each hotel option.\n5. The list should be sorted by relevance to the search query."
+    },
+    {
+        "instruction": "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer. Write a user story for a given software.",
+        "input": "Gmail",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\nAs a user, I want to be able to easily compose and send emails to my contacts so that I can quickly communicate with them."
+    },
+    {
+        "instruction": "Write a Jira ticket for the given task.",
+        "input": "New Employee onboarding",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nSummary: Create a new onboarding process for new employees\n\nDescription:\nWe need to create a new onboarding process for new employees that will ensure they have the necessary information and resources to be successful in their new role. This process should include a welcome email, an introduction to the company and its culture, a review of the employee handbook, and any other relevant information.\n\nAcceptance Criteria:\n- Welcome email is sent to new employee\n- Introduction to company and culture is provided\n- Employee handbook is reviewed\n- Any other relevant information is provided"
+    },
+    {
+        "instruction": "Paraphrase the given text in an academic style.",
+        "input": "Lots of papers have been published on this topic.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nNumerous scholarly articles have been written on this subject."
+    },
+    {
+        "instruction": "Make a list of the pros and cons of the given decision.",
+        "input": "Implementing a Remote Working Policy",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nPros:\n\n1. Increased flexibility for employees\n2. Reduced overhead costs for businesses\n3. Increased productivity due to fewer distractions\n4. Improved work-life balance for employees\n5. Reduced environmental impact from fewer commutes\n\nCons:\n\n1. Increased security risks due to remote access\n2. Difficulty in monitoring employee performance\n3. Difficulty in fostering team collaboration\n4. Increased costs for businesses to provide necessary equipment\n5. Difficulty in maintaining company culture"
+    },
+    {
+        "instruction": "Include important study notes and key points that someone should know about the given subject.",
+        "input": "history of the USA",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. The United States of America was founded in 1776 with the signing of the Declaration of Independence.\n\n2. The American Revolution was fought from 1775 to 1783, with the colonies gaining their independence from Great Britain.\n\n3. The Constitution of the United States was ratified in 1788, establishing the framework for the federal government.\n\n4. The Louisiana Purchase of 1803 doubled the size of the United States.\n\n5. The Civil War was fought from 1861 to 1865, with the Union defeating the Confederacy and abolishing slavery.\n\n6. The United States became a world power in the late 19th and early 20th centuries, with the Spanish-American War and World War I.\n\n7. The Great Depression of the 1930s was followed by World War II, which ended in 1945 with the United States as one of the victors.\n\n8. The Cold War between the United States and the Soviet Union lasted from 1945 to 1991.\n\n9. The United States has been a leader in science and technology since the 1950s, with the space race and the development of the internet.\n\n10. The United States is a major economic and political power in the world today."
+    },
+    {
+        "instruction": "Based on the given keywords, write a review of a restaurant.",
+        "input": "Name: Pizzeria\ngood prices, quiet place, tasty, nice staff",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nI recently visited Pizzeria and I was pleasantly surprised. The prices were very reasonable and the atmosphere was quiet and relaxing. The food was delicious and the staff was very friendly and accommodating. I had a great experience and would definitely recommend this place to anyone looking for a nice, quiet place to enjoy a tasty meal."
+    },
+    {
+        "instruction": "Convert natural language into a list of turn-by-turn directions.",
+        "input": "Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n1. Take I-10 West \n2. Take the 101 North \n3. Look for the Hollywood sign"
+    },
+    {
+        "instruction": "Provide an ESRB rating for the following game.",
+        "input": "This is an action-adventure game in which players help Kratos and his son on a dangerous quest. Players explore various realms and engage in frenetic hand-to-hand combat against human-like raiders and fantastical creatures (e.g., centaurs, trolls, dragons). Players use axes and chained blades to battle enemies, often resulting in large blood-splatter effects and dismemberment. Players can perform finishing attacks that depict close-up impalement via bladed and hand-held weapons; repeated axe strikes to a creature's neck results in decapitation. The words \u201cf**k\u201d and \u201csh*t\u201d are heard in the game.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nM (Mature)"
+    },
+    {
+        "instruction": "A color description has been provided. Find the CSS code associated with that color.",
+        "input": "A light red color with a medium light shade of pink",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nCSS Code: background-color: #FFC0CB;"
+    },
+    {
+        "instruction": "Identify and fix bugs in the given code and rewrite it",
+        "input": "for i in range(10)\n    print(Answer is:)\n    print(i)",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n# Rewritten code\nfor i in range(10):\n    print(\"Answer is:\")\n    print(i)"
+    },
+    {
+        "instruction": "Make a list of common phrases for the given section of the paper.",
+        "input": "Introduction",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n\n1. In this paper, I will be discussing...\n2. The purpose of this paper is to...\n3. This paper will explore...\n4. The main focus of this paper is...\n5. This paper will examine...\n6. This paper will analyze...\n7. This paper will investigate...\n8. This paper will look at...\n9. This paper will review...\n10. This paper will discuss..."
+    },
+    {
+        "instruction": "We have described a scene from a movie that we have seen in the past. Find out what movie it is.",
+        "input": "A choice has to be made between picking the red pill or the blue pill",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ".\n\nThe movie is The Matrix (1999)."
+    },
+    {
+        "instruction": "Take the product description and write a creative ad for it.",
+        "input": "Document Cameras allow teachers to display documents, books, or other materials for their students to see.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " Now, you can make your classroom come alive with the latest Document Camera! Our Document Camera is easy to use and provides crystal clear images for your students to see. With its advanced features, you can zoom in and out, rotate images, and even capture still images. Plus, it's lightweight and portable, so you can take it with you wherever you go. Get the Document Camera today and make your classroom come alive!"
+    },
+    {
+        "instruction": "Translate the natural language description into a Google Sheets formula.",
+        "input": "if C7 is equal to \"U.S.A.\" or \"Canada\" or \"Europe\" or \"The Americas\"",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " then return \"Yes\"\n\n=IF(OR(C7=\"U.S.A.\",C7=\"Canada\",C7=\"Europe\",C7=\"The Americas\"),\"Yes\",\"\")"
+    },
+    {
+        "instruction": "You are given a tweet and you should decide whether it's offensive or not.",
+        "input": "She has certainly taken some heat for being such an....well idiot.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThis tweet is offensive."
+    },
+    {
+        "instruction": "Predict how many stars the author will give to the restaurant from a Yelp review.",
+        "input": "The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.\nThe bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nIt is difficult to predict how many stars the author will give to the restaurant from this review. It is likely that the author will give the restaurant 3 stars."
+    },
+    {
+        "instruction": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.",
+        "input": "Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nAuto Services"
+    },
+    {
+        "instruction": "Notify me of any suggestions you may have for making the text more grammatically correct.",
+        "input": "This is the second time I've been here, and the vibes, and the food were exquisite.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nI suggest changing the sentence to: \"This is my second time here, and the vibes and food were exquisite.\""
+    },
+    {
+        "instruction": "Using the ingredients that are available, create a dinner recipe.",
+        "input": "Kale + almond butter + apple cider vinegar + agave nectar + tamari",
+        "generator": "text-davinci-003-greedy-long",
+        "output": " + garlic + ginger\n\nAsian Kale Salad\n\nIngredients:\n\n- 2 bunches of kale, washed and chopped\n\n- 2 tablespoons almond butter\n- 2 tablespoons apple cider vinegar\n- 2 tablespoons agave nectar\n- 2 tablespoons tamari\n- 2 cloves garlic, minced\n- 1 teaspoon freshly grated ginger\n- 2 tablespoons sesame oil\n- Salt and pepper to taste\n\nInstructions:\n\n1. In a large bowl, combine the kale, almond butter, apple cider vinegar, agave nectar, tamari, garlic, ginger, and sesame oil.\n\n2. Massage the ingredients into the kale until it is evenly coated.\n\n3. Season with salt and pepper to taste.\n\n4. Serve the salad chilled or at room temperature. Enjoy!"
+    },
+    {
+        "instruction": "Categorize the given product into one of Electronics, Computers, Smart Home, or Arts & Crafts departments.",
+        "input": "Google Nest Learning Thermostat",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nSmart Home"
+    },
+    {
+        "instruction": "Provide instructions for the given exercise.",
+        "input": "Leg Raises",
+        "generator": "text-davinci-003-greedy-long",
+        "output": ":\n\n1. Lie on your back on a flat surface with your legs straight and your arms at your sides.\n\n2. Slowly raise your legs up until they are at a 90-degree angle with your torso.\n\n3. Hold this position for a few seconds, then slowly lower your legs back down to the starting position.\n\n4. Repeat this exercise 10-15 times."
+    },
+    {
+        "instruction": "Rewrite the text and correct the spelling errors.",
+        "input": "It solves problems comon and uniqe to every team.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nIt solves problems common and unique to every team."
+    },
+    {
+        "instruction": "Write down antonyms for the given word.",
+        "input": "laureating",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\ndenigrating"
+    },
+    {
+        "instruction": "Write the HTML syntax for the required action.",
+        "input": "adding an image to the page",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\n<img src=\"image.jpg\" alt=\"image description\">"
+    },
+    {
+        "instruction": "Identify the programming language used to write the given code.",
+        "input": "if (20 > 18) {\n  printf(\"20 is greater than 18\");\n}",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nC"
+    },
+    {
+        "instruction": "Decide which part of speech the underlined word belongs to.",
+        "input": "school will _keep through the winter",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "_\n\nkeep - verb"
+    },
+    {
+        "instruction": "Define what the underlined word means for kids.",
+        "input": "_keep a promise",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "_\n\nTo keep a promise means to do what you said you would do. It means to follow through on your word and not break your promise."
+    },
+    {
+        "instruction": "Expand the given sentence and give it more details and depth.",
+        "input": "It changed my life.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThe moment I experienced it, I knew my life would never be the same. It was a life-altering event that completely transformed my outlook on the world and my place in it. It opened my eyes to a new way of thinking and gave me a newfound appreciation for the beauty and complexity of life. It changed my life in ways I never could have imagined, and I'm forever grateful for the impact it had on me."
+    },
+    {
+        "instruction": "Extract the address of the property from the \"About this space\" section of Airbnb.",
+        "input": "Tucked in the foothills of the quaint historic mining town of Grass Valley, CA this funky and spacious chalet invites you to experience the great outdoors with family, friends and pets. Enjoy the hot tub, basketball court, treehouse, kids rooms, bbq, fire-pit, outdoor theater, and more. One hour from Tahoe and 10 minutes to town, you\u2019re never short of things to explore.",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nAddress: Grass Valley, CA"
+    },
+    {
+        "instruction": "Write what the pronunciation of the given word sounds like. Follow the \"Google pronunciation dictionary\" scheme for phonetic spelling.",
+        "input": "interpretations",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nin-t\u0259r-pr\u0259-\u02c8t\u0101-sh\u0259nz"
+    },
+    {
+        "instruction": "Explain the meaning of the given phrase in simple terms. Use an example if possible. It would be helpful if you could give an example.",
+        "input": "\"With a little give in them\"",
+        "generator": "text-davinci-003-greedy-long",
+        "output": "\n\nThis phrase means that something is flexible or has some degree of give or elasticity. For example, a rubber band has a little give in it, so when you stretch it, it will return to its original shape."
+    }
+]
